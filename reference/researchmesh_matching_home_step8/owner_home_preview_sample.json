@@ -1,0 +1,64 @@
+{
+  "schema_version": "researchmesh_home_0.1",
+  "owner_id": "P-DEMO",
+  "view": "owner_preview",
+  "header": {
+    "display_name": "虚构学生甲",
+    "headline": "从数据整理开始参与科研协作",
+    "bio": "有课程数据处理、绘图和项目汇报整理经历，希望先从小范围协作开始。",
+    "collaboration_intent": "愿意先用模拟样例讨论，具体时间另行确认。"
+  },
+  "experiences": [
+    {
+      "id": "claim_1",
+      "title": "数据预处理（CSV空值处理）",
+      "description": "使用Python对CSV文件中的空值进行处理",
+      "basis": "本人自述已在演示中核对，未经外部核验",
+      "independence": "unknown",
+      "skill_certified": false
+    },
+    {
+      "id": "claim_2",
+      "title": "Python数据可视化（折线图绘制）",
+      "description": "用Python绘制折线图展示数据",
+      "basis": "本人自述已在演示中核对，未经外部核验",
+      "independence": "unknown",
+      "skill_certified": false
+    },
+    {
+      "id": "claim_3",
+      "title": "项目汇报整理",
+      "description": "帮助整理机械臂项目汇报材料",
+      "basis": "本人自述已在演示中核对，未经外部核验",
+      "independence": "unknown",
+      "skill_certified": false
+    }
+  ],
+  "learning_interests": [
+    {
+      "id": "interest_1",
+      "label": "ROS2",
+      "type": "learning_interest"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+      "agreement_id": "ENG-API-DEMO-06",
+      "version": 2,
+      "status": "public_draft_authorized_in_demo",
+      "summary": [
+        "独立使用Python和pandas编写CSV清洗脚本，处理缺失值和异常值，提交代码及样例输入输出",
+        "使用matplotlib完成趋势图制作，包括标明坐标轴与单位，并撰写趋势观察和图表局限说明"
+      ],
+      "public_draft_granted_in_demo": true,
+      "actual_publication": false,
+      "identity_verified": false
+    }
+  ],
+  "public_authorized": false,
+  "auto_publish": false,
+  "source_profile_hash": "976a4cf0f1fafbf346310ec8626c8541b0d03b1b24f5c74f2efb1794df0cfdbd",
+  "identity_verified": false,
+  "preview_hash": "cbabeec78fc30b0b497e9270e632256f82f3929ef8141cbc09b763e1681d63c5"
+}

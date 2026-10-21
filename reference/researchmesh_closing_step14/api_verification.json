@@ -1,0 +1,90 @@
+[
+  {
+    "case": "matched_plan",
+    "app": "team",
+    "run_id": "f33e7bf9-1478-4642-bfa4-7bd2d9d5c842",
+    "status": "succeeded",
+    "total_tokens": 0,
+    "steps": 6,
+    "output_keys": [
+      "matched_team_card",
+      "matched_team_packet"
+    ],
+    "pending_node": null
+  },
+  {
+    "case": "stale",
+    "app": "team",
+    "run_id": "0c9e827e-539b-4284-a905-7a10ce881244",
+    "status": "succeeded",
+    "total_tokens": 0,
+    "steps": 6,
+    "output_keys": [
+      "pending_card",
+      "team_blocked_packet"
+    ],
+    "pending_node": null
+  },
+  {
+    "case": "start",
+    "app": "delivery",
+    "run_id": "ba0236fd-cb24-4a6b-a113-bd348eb62ed5",
+    "status": "paused",
+    "total_tokens": 1746,
+    "steps": 6,
+    "output_keys": [],
+    "pending_node": "1792415339919",
+    "form_fields": [
+      "review_note"
+    ],
+    "actions": [
+      "approve",
+      "revise",
+      "dispute"
+    ]
+  },
+  {
+    "case": "approve",
+    "app": "delivery",
+    "run_id": "ba0236fd-cb24-4a6b-a113-bd348eb62ed5",
+    "status": "paused",
+    "total_tokens": 1746,
+    "steps": 10,
+    "output_keys": [],
+    "pending_node": "1792416719562",
+    "form_fields": [
+      "contribution_correction"
+    ],
+    "actions": [
+      "public_draft",
+      "private",
+      "revise"
+    ]
+  },
+  {
+    "case": "private",
+    "app": "delivery",
+    "run_id": "ba0236fd-cb24-4a6b-a113-bd348eb62ed5",
+    "status": "succeeded",
+    "total_tokens": 1746,
+    "steps": 13,
+    "output_keys": [
+      "result",
+      "contribution_packet"
+    ],
+    "pending_node": null
+  },
+  {
+    "case": "stale",
+    "app": "delivery",
+    "run_id": "410f80cf-30e7-480d-aa38-835e171f4532",
+    "status": "succeeded",
+    "total_tokens": 0,
+    "steps": 4,
+    "output_keys": [
+      "preflight_blocked",
+      "blocked_route"
+    ],
+    "pending_node": null
+  }
+]

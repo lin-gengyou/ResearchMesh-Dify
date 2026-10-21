@@ -1,0 +1,1 @@
+公共条款专用格式：due、inputs、support、reward、withdrawal的task_id和task_anchor都必须是空字符串""，不得填写任一任务ID或任务名。同一次意见同时修改某项验收与团队指导安排时，必须分别输出任务补丁与公共条款补丁；例如{"task_id":"","task_anchor":"","field":"support","value":"团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。","basis":"source","request_quote":"团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。"}。若意见仅说明某任务的专属支持，不把它推广为公共支持，应提出澄清。“保持不变”“保持未约定”“不新增”是本轮约束，不单独生成修改这些字段的补丁。

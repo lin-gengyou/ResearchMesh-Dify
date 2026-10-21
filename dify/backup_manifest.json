@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-21",
+  "source": "项目负责人从 Dify 导出并提供，原始字节保留",
+  "verification": "YAML结构、节点引用、Python语法、已知密钥及常见密钥格式静态检查通过；未在新账号导入运行",
+  "apps": [
+    {
+      "file": "demand.yml",
+      "name": "研织 ResearchMesh｜AI协作草稿与需求审核 v0.7",
+      "dsl_version": "0.7.0",
+      "nodes": 20,
+      "edges": 23,
+      "llm_nodes": 4,
+      "python_nodes_syntax_checked": 8,
+      "sha256": "062618da6efc1023ed01d4f0a6de0c3d51bb842b089ae81ea9a14db4027f0d53"
+    },
+    {
+      "file": "capability.yml",
+      "name": "研织 ResearchMesh｜个人经历与能力草稿 v0.1",
+      "dsl_version": "0.7.0",
+      "nodes": 10,
+      "edges": 11,
+      "llm_nodes": 1,
+      "python_nodes_syntax_checked": 3,
+      "sha256": "15f9c20a95cd0183ba868ab90380717f5fc314eeaefbba4ef32299664760496e"
+    },
+    {
+      "file": "matching.yml",
+      "name": "研织 ResearchMesh｜供需匹配与证据解释 v0.1",
+      "dsl_version": "0.7.0",
+      "nodes": 13,
+      "edges": 13,
+      "llm_nodes": 2,
+      "python_nodes_syntax_checked": 5,
+      "sha256": "a7e41a40c2e0a30ed1b1ad4389060620a89e3cb734ffee57f21dbdcacbca9ab7"
+    },
+    {
+      "file": "team.yml",
+      "name": "研织 ResearchMesh｜组队组合与工时分配 v0.1",
+      "dsl_version": "0.7.0",
+      "nodes": 41,
+      "edges": 52,
+      "llm_nodes": 3,
+      "python_nodes_syntax_checked": 11,
+      "sha256": "5ab9841f646b8a6131b8fc5e8c3f11f7866b738ace91c6f03d0e131325b4836a"
+    },
+    {
+      "file": "delivery.yml",
+      "name": "研织 ResearchMesh｜交付验收与贡献记录 v0.1",
+      "dsl_version": "0.7.0",
+      "nodes": 16,
+      "edges": 22,
+      "llm_nodes": 1,
+      "python_nodes_syntax_checked": 5,
+      "sha256": "a9506dfb73d29e948c2260b39f78935885e956c9101455fcf75b9b1e0ac31a17"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": "researchmesh_home_0.1",
+  "view": "public",
+  "status": "published_projection",
+  "header": {
+    "display_name": "虚构学生甲",
+    "headline": "从数据整理开始参与科研协作"
+  },
+  "experiences": [
+    {
+      "id": "claim_1",
+      "title": "数据预处理（CSV空值处理）",
+      "description": "使用Python对CSV文件中的空值进行处理",
+      "basis": "本人自述已在演示中核对，未经外部核验",
+      "independence": "unknown",
+      "skill_certified": false
+    },
+    {
+      "id": "claim_2",
+      "title": "Python数据可视化（折线图绘制）",
+      "description": "用Python绘制折线图展示数据",
+      "basis": "本人自述已在演示中核对，未经外部核验",
+      "independence": "unknown",
+      "skill_certified": false
+    }
+  ],
+  "learning_interests": [
+    {
+      "id": "interest_1",
+      "label": "ROS2",
+      "type": "learning_interest"
+    }
+  ],
+  "contributions": [],
+  "identity_verified": false,
+  "skill_certified": false
+}

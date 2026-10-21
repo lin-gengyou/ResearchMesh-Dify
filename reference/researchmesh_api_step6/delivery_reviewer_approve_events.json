@@ -1,0 +1,516 @@
+[
+  {
+    "event": "workflow_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+      "workflow_id": "1e81c7e2-116d-43a8-be8f-7098e000cb62",
+      "inputs": {
+        "agreement_json": "{\"agreement_hash\": \"d54ddd0c5f6580b21500fcf25138deac79d6243dc660fe2844f5466f30ff679d\", \"current_version\": 2, \"deliverables\": [{\"acceptance\": \"交付一个可运行的CSV清洗脚本，附带示例输入文件和示例输出文件，说明脚本如何处理缺失值和异常数据。验收时通过运行脚本验证输出是否符合示例输出，并核对处理规则文档。\", \"id\": \"D1\", \"text\": \"CSV清洗脚本与样例输出\"}, {\"acceptance\": \"交付趋势图和说明文档。说明文档需包含一条趋势观察和一条图表局限性，且说明内容限定在120字以内。验收时核对趋势图是否与提供的数据一致，检查说明是否符合字数和内容要求。\", \"id\": \"D2\", \"text\": \"趋势图与说明\"}], \"demo_only\": true, \"formal_state_update\": false, \"id\": \"ENG-API-DEMO-06\", \"identity_verified\": false, \"owner_accepted\": true, \"performer_accepted\": true, \"performer_id\": \"P-DEMO\", \"reviewer_id\": \"R-DEMO\", \"state\": \"in_progress\", \"submission_version\": 2, \"version\": 2, \"source_workflow_run_id\": \"b8b5059d-53b3-4322-a20e-67bebe1c4bd2\"}",
+        "submission_text": "【完全虚构API联调】我独立使用Python和pandas编写CSV清洗脚本，用中位数处理缺失值，标记异常值；提交了代码、样例输入和对应输出。我用matplotlib完成趋势图，标明坐标轴与单位。趋势说明：观察：样例数据总体上升；局限：样本少，不能推断因果。硬件由别人负责，本次不认领硬件成果。这里没有上传实际文件，只测试文字说明和人工确认流程。",
+        "sys.files": [],
+        "sys.user_id": "researchmesh-api-delivery-v1",
+        "sys.app_id": "5f017ac1-8be1-4d76-921e-96c4bc273c5c",
+        "sys.timestamp": 1792491380,
+        "sys.workflow_id": "1e81c7e2-116d-43a8-be8f-7098e000cb62",
+        "sys.workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c"
+      },
+      "created_at": 1792491380,
+      "reason": "initial"
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "8caf8bd5-0353-4359-8d8b-59d95b1a8345",
+      "node_id": "1792409468829",
+      "node_type": "start",
+      "title": "用户输入",
+      "index": 1,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491380,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "8caf8bd5-0353-4359-8d8b-59d95b1a8345",
+      "node_id": "1792409468829",
+      "node_type": "start",
+      "title": "用户输入",
+      "index": 1,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 8.2e-05,
+      "execution_metadata": null,
+      "created_at": 1792491380,
+      "finished_at": 1792491380,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "f9f36b96-2eb2-45db-9389-d424ed64b2ca",
+      "node_id": "1792409506170",
+      "node_type": "code",
+      "title": "核对约定版本与提交状态",
+      "index": 2,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491380,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "f9f36b96-2eb2-45db-9389-d424ed64b2ca",
+      "node_id": "1792409506170",
+      "node_type": "code",
+      "title": "核对约定版本与提交状态",
+      "index": 2,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.143772,
+      "execution_metadata": null,
+      "created_at": 1792491380,
+      "finished_at": 1792491381,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "aea606bd-e41e-40b6-8018-2c5908821ad5",
+      "node_id": "1792409683413",
+      "node_type": "if-else",
+      "title": "版本与约定可进入验收",
+      "index": 3,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491381,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "aea606bd-e41e-40b6-8018-2c5908821ad5",
+      "node_id": "1792409683413",
+      "node_type": "if-else",
+      "title": "版本与约定可进入验收",
+      "index": 3,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.000179,
+      "execution_metadata": null,
+      "created_at": 1792491381,
+      "finished_at": 1792491381,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "3c588908-5b43-4249-8b84-a7507d879dcd",
+      "node_id": "1792409761510",
+      "node_type": "llm",
+      "title": "AI对照交付标准与本人工作",
+      "index": 4,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491381,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "3c588908-5b43-4249-8b84-a7507d879dcd",
+      "node_id": "1792409761510",
+      "node_type": "llm",
+      "title": "AI对照交付标准与本人工作",
+      "index": 4,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 4.283767,
+      "execution_metadata": null,
+      "created_at": 1792491381,
+      "finished_at": 1792491385,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "c6d69a1c-65ee-4679-933a-160dec82e7fe",
+      "node_id": "1792415247112",
+      "node_type": "code",
+      "title": "核对引用并生成验收辅助卡",
+      "index": 5,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491385,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "c6d69a1c-65ee-4679-933a-160dec82e7fe",
+      "node_id": "1792415247112",
+      "node_type": "code",
+      "title": "核对引用并生成验收辅助卡",
+      "index": 5,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.138609,
+      "execution_metadata": null,
+      "created_at": 1792491385,
+      "finished_at": 1792491385,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "5f9b4273-9957-4353-bc94-3992455d1e92",
+      "node_id": "1792415339919",
+      "node_type": "human-input",
+      "title": "验收者｜通过退回或争议",
+      "index": 6,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491431,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "5f9b4273-9957-4353-bc94-3992455d1e92",
+      "node_id": "1792415339919",
+      "node_type": "human-input",
+      "title": "验收者｜通过退回或争议",
+      "index": 6,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.026502,
+      "execution_metadata": null,
+      "created_at": 1792491431,
+      "finished_at": 1792491431,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "ff2594fe-2650-402f-8d46-c33ccb17f6f9",
+      "node_id": "1792416430453",
+      "node_type": "code",
+      "title": "记录验收决定与贡献草稿",
+      "index": 7,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491431,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "ff2594fe-2650-402f-8d46-c33ccb17f6f9",
+      "node_id": "1792416430453",
+      "node_type": "code",
+      "title": "记录验收决定与贡献草稿",
+      "index": 7,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.268676,
+      "execution_metadata": null,
+      "created_at": 1792491431,
+      "finished_at": 1792491431,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "b7f35afe-6d26-490c-9960-f0113cffc147",
+      "node_id": "1792416670251",
+      "node_type": "if-else",
+      "title": "验收通过后再核对个人贡献",
+      "index": 8,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491431,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "b7f35afe-6d26-490c-9960-f0113cffc147",
+      "node_id": "1792416670251",
+      "node_type": "if-else",
+      "title": "验收通过后再核对个人贡献",
+      "index": 8,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "succeeded",
+      "error": null,
+      "elapsed_time": 0.000134,
+      "execution_metadata": null,
+      "created_at": 1792491431,
+      "finished_at": 1792491431,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_started",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "53e38962-7712-4776-9ffc-d352eededb20",
+      "node_id": "1792416719562",
+      "node_type": "human-input",
+      "title": "本人核对贡献与公开意愿",
+      "index": 9,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "created_at": 1792491431,
+      "extras": {},
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "node_finished",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "id": "53e38962-7712-4776-9ffc-d352eededb20",
+      "node_id": "1792416719562",
+      "node_type": "human-input",
+      "title": "本人核对贡献与公开意愿",
+      "index": 9,
+      "predecessor_node_id": null,
+      "inputs": null,
+      "process_data": null,
+      "outputs": null,
+      "status": "paused",
+      "error": null,
+      "elapsed_time": 0.054367,
+      "execution_metadata": null,
+      "created_at": 1792491431,
+      "finished_at": 1792491431,
+      "files": [],
+      "iteration_id": null,
+      "loop_id": null
+    }
+  },
+  {
+    "event": "human_input_required",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "form_id": "53e38962-7712-4776-9ffc-d352eededb20",
+      "node_id": "1792416719562",
+      "node_title": "本人核对贡献与公开意愿",
+      "form_content": "# 研织｜人工验收记录\n验收者选择通过（流程演示）\n约定 ENG-API-DEMO-06｜版本 2\n说明：【虚构API联调】仅验证验收通过后的贡献者确认流程，没有检验实际文件。\n验收选择与AI的提交对应表分开记录；本页不代表身份已核验或真实业务状态已写入。\n\n## 请贡献者本人核对贡献草稿\n仅概括本次约定下的本人工作，不能据此认领团队全部成果或新增技能认证。\n\n- 独立使用Python和pandas编写CSV清洗脚本，处理缺失值和异常值，提交代码及样例输入输出\n  原文：“我独立使用Python和pandas编写CSV清洗脚本，用中位数处理缺失值，标记异常值；提交了代码、样例输入和对应输出。”\n  完成方式：原文自述独立完成\n\n- 使用matplotlib完成趋势图制作，包括标明坐标轴与单位，并撰写趋势观察和图表局限说明\n  原文：“我用matplotlib完成趋势图，标明坐标轴与单位。趋势说明：观察：样例数据总体上升；局限：样本少，不能推断因果。”\n  完成方式：独立程度未说明\n\n公开与否由本人选择。允许公开也只生成待发布草稿，尚未连接公开主页；有修改请写在下方，将保留为待复核版本。\n\n## 修改贡献表述（可留空）\n如需修改，请写下更准确的本人工作；修改后保留为待复核草稿。当前为角色流程演示。\n\n{{#$output.contribution_correction#}}",
+      "inputs": [
+        {
+          "output_variable_name": "contribution_correction",
+          "type": "paragraph",
+          "default": {
+            "type": "constant",
+            "selector": [],
+            "value": ""
+          }
+        }
+      ],
+      "actions": [
+        {
+          "id": "public_draft",
+          "title": "允许生成公开草稿",
+          "button_style": "default"
+        },
+        {
+          "id": "private",
+          "title": "仅保留私有",
+          "button_style": "default"
+        },
+        {
+          "id": "revise",
+          "title": "修改贡献表述",
+          "button_style": "default"
+        }
+      ],
+      "display_in_ui": true,
+      "form_token": "[REDACTED]",
+      "approval_channels": [
+        "console"
+      ],
+      "resolved_default_values": {},
+      "expiration_time": 1792577831
+    }
+  },
+  {
+    "event": "workflow_paused",
+    "task_id": "fb5e8423-9cee-4669-a8e1-b6c993e510f6",
+    "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+    "data": {
+      "workflow_run_id": "6737dfee-bd5a-40df-ac0a-d646e1d95d7c",
+      "paused_nodes": [
+        "1792416719562"
+      ],
+      "outputs": {},
+      "reasons": [
+        {
+          "TYPE": "human_input_required",
+          "form_id": "53e38962-7712-4776-9ffc-d352eededb20",
+          "form_content": "# 研织｜人工验收记录\n验收者选择通过（流程演示）\n约定 ENG-API-DEMO-06｜版本 2\n说明：【虚构API联调】仅验证验收通过后的贡献者确认流程，没有检验实际文件。\n验收选择与AI的提交对应表分开记录；本页不代表身份已核验或真实业务状态已写入。\n\n## 请贡献者本人核对贡献草稿\n仅概括本次约定下的本人工作，不能据此认领团队全部成果或新增技能认证。\n\n- 独立使用Python和pandas编写CSV清洗脚本，处理缺失值和异常值，提交代码及样例输入输出\n  原文：“我独立使用Python和pandas编写CSV清洗脚本，用中位数处理缺失值，标记异常值；提交了代码、样例输入和对应输出。”\n  完成方式：原文自述独立完成\n\n- 使用matplotlib完成趋势图制作，包括标明坐标轴与单位，并撰写趋势观察和图表局限说明\n  原文：“我用matplotlib完成趋势图，标明坐标轴与单位。趋势说明：观察：样例数据总体上升；局限：样本少，不能推断因果。”\n  完成方式：独立程度未说明\n\n公开与否由本人选择。允许公开也只生成待发布草稿，尚未连接公开主页；有修改请写在下方，将保留为待复核版本。\n\n## 修改贡献表述（可留空）\n如需修改，请写下更准确的本人工作；修改后保留为待复核草稿。当前为角色流程演示。\n\n{{#$output.contribution_correction#}}",
+          "inputs": [
+            {
+              "output_variable_name": "contribution_correction",
+              "type": "paragraph",
+              "default": {
+                "type": "constant",
+                "selector": [],
+                "value": ""
+              }
+            }
+          ],
+          "actions": [
+            {
+              "id": "public_draft",
+              "title": "允许生成公开草稿",
+              "button_style": "default"
+            },
+            {
+              "id": "private",
+              "title": "仅保留私有",
+              "button_style": "default"
+            },
+            {
+              "id": "revise",
+              "title": "修改贡献表述",
+              "button_style": "default"
+            }
+          ],
+          "node_id": "1792416719562",
+          "node_title": "本人核对贡献与公开意愿",
+          "resolved_default_values": {},
+          "form_token": "[REDACTED]",
+          "approval_channels": [
+            "console"
+          ],
+          "expiration_time": 1792577831
+        }
+      ],
+      "status": "paused",
+      "created_at": 1792491380,
+      "elapsed_time": 0.0,
+      "total_tokens": 1602,
+      "total_steps": 10
+    }
+  }
+]

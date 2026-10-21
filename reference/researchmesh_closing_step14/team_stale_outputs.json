@@ -1,0 +1,4 @@
+{
+  "pending_card": "# 研织｜组队前暂需核对\n需求已换版或关闭，旧匹配不能接续组队\n没有创建团队、联系人员或接受约定。",
+  "team_blocked_packet": "{\"schema_version\": \"team_demo_0.1\", \"route\": \"blocked\", \"reason\": \"需求已换版或关闭，旧匹配不能接续组队\", \"excluded\": []}"
+}

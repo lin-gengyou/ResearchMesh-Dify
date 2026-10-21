@@ -1,0 +1,908 @@
+{
+  "capability": {
+    "edges": [
+      {
+        "id": "rf__edge-1792397353605-source-1792397385007-target",
+        "label": "Edge from 1792397353605 to 1792397385007"
+      },
+      {
+        "id": "rf__edge-1792397385007--1792397687072-target",
+        "label": "Edge from 1792397385007 to 1792397687072"
+      },
+      {
+        "id": "rf__edge-1792397687072-source-1792492324305-target",
+        "label": "Edge from 1792397687072 to 1792492324305"
+      },
+      {
+        "id": "rf__edge-1792492324305-true-1792496533023-target",
+        "label": "Edge from 1792492324305 to 1792496533023"
+      },
+      {
+        "id": "rf__edge-1792496727918--1792496874171-target",
+        "label": "Edge from 1792496727918 to 1792496874171"
+      },
+      {
+        "id": "rf__edge-1792496533023-__timeout-1792497023347-target",
+        "label": "Edge from 1792496533023 to 1792497023347"
+      },
+      {
+        "id": "rf__edge-1792497023347--1792497150284-target",
+        "label": "Edge from 1792497023347 to 1792497150284"
+      },
+      {
+        "id": "rf__edge-1792496533023-confirm_use-1792496727918-target",
+        "label": "Edge from 1792496533023 to 1792496727918"
+      },
+      {
+        "id": "rf__edge-1792496533023-revise-1792496727918-target",
+        "label": "Edge from 1792496533023 to 1792496727918"
+      },
+      {
+        "id": "rf__edge-1792496533023-save_private-1792496727918-target",
+        "label": "Edge from 1792496533023 to 1792496727918"
+      },
+      {
+        "id": "rf__edge-1792492324305-false-1792397833375-target",
+        "label": "Edge from 1792492324305 to 1792397833375"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "1792397353605",
+        "text": "开始\n用户输入\nexperience\n必填"
+      },
+      {
+        "id": "1792397385007",
+        "text": "AI提取个人贡献与能力候选\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792397687072",
+        "text": "校验引用并生成能力草稿"
+      },
+      {
+        "id": "1792397833375",
+        "text": "输出｜个人能力草稿\n校验引用并生成能力草稿\n/\nresult\nString\n校验引用并生成能力草稿\n/\npayload\nString\n校验引用并生成能力草稿\n/\nroute\nString"
+      },
+      {
+        "id": "1792492324305",
+        "text": "有可供本人核对的经历线索\nIF\n校验引用并生成能力草稿\n/\nroute\n是\nreview\nELSE"
+      },
+      {
+        "id": "1792496533023",
+        "text": "本人核对经历与匹配使用意愿\n提交方式\nWebapp\nCONFIRM_USE\nREVISE\nSAVE_PRIVATE\nTIMEOUT"
+      },
+      {
+        "id": "1792496727918",
+        "text": "记录本人选择与匹配线索"
+      },
+      {
+        "id": "1792496874171",
+        "text": "输出｜本人核对与匹配线索\n记录本人选择与匹配线索\n/\nresult\nString\n记录本人选择与匹配线索\n/\npayload\nString\n记录本人选择与匹配线索\n/\nroute\nString\n记录本人选择与匹配线索\n/\nevidence_json\nString\n记录本人选择与匹配线索\n/\nrevision_input\nString"
+      },
+      {
+        "id": "1792497023347",
+        "text": "保留草稿并记录确认超时"
+      },
+      {
+        "id": "1792497150284",
+        "text": "输出｜本人确认超时\n保留草稿并记录确认超时\n/\nresult\nString\n保留草稿并记录确认超时\n/\npayload\nString"
+      }
+    ]
+  },
+  "demand": {
+    "edges": [
+      {
+        "id": "rf__edge-1792318236475--1792318370008-target",
+        "label": "Edge from 1792318236475 to 1792318370008"
+      },
+      {
+        "id": "rf__edge-1792324164840-source-1792324244880-target",
+        "label": "Edge from 1792324164840 to 1792324244880"
+      },
+      {
+        "id": "rf__edge-1792318226260-source-1792324965928-target",
+        "label": "Edge from 1792318226260 to 1792324965928"
+      },
+      {
+        "id": "rf__edge-1792324965928-source-1792318236475-target",
+        "label": "Edge from 1792324965928 to 1792318236475"
+      },
+      {
+        "id": "rf__edge-1792324244880-true-1792335658268-target",
+        "label": "Edge from 1792324244880 to 1792335658268"
+      },
+      {
+        "id": "rf__edge-1792335658268-approve-1792335869711-target",
+        "label": "Edge from 1792335658268 to 1792335869711"
+      },
+      {
+        "id": "rf__edge-1792335658268-revise-1792335869711-target",
+        "label": "Edge from 1792335658268 to 1792335869711"
+      },
+      {
+        "id": "rf__edge-1792335869711-source-1792324320041-target",
+        "label": "Edge from 1792335869711 to 1792324320041"
+      },
+      {
+        "id": "rf__edge-1792335658268-__timeout-1792336138883-target",
+        "label": "Edge from 1792335658268 to 1792336138883"
+      },
+      {
+        "id": "rf__edge-1792336138883--1792336163455-target",
+        "label": "Edge from 1792336138883 to 1792336163455"
+      },
+      {
+        "id": "rf__edge-1792318370008-source-1792379068228-target",
+        "label": "Edge from 1792318370008 to 1792379068228"
+      },
+      {
+        "id": "rf__edge-1792379729320-source-1792324164840-target",
+        "label": "Edge from 1792379729320 to 1792324164840"
+      },
+      {
+        "id": "rf__edge-1792379068228-source-1792380379270-target",
+        "label": "Edge from 1792379068228 to 1792380379270"
+      },
+      {
+        "id": "rf__edge-1792380379270-source-1792379729320-target",
+        "label": "Edge from 1792380379270 to 1792379729320"
+      },
+      {
+        "id": "rf__edge-1792324244880-false-1792383887444-target",
+        "label": "Edge from 1792324244880 to 1792383887444"
+      },
+      {
+        "id": "rf__edge-1792383887444-source-1792383955297-target",
+        "label": "Edge from 1792383887444 to 1792383955297"
+      },
+      {
+        "id": "rf__edge-1792383955297-source-1792384003831-target",
+        "label": "Edge from 1792383955297 to 1792384003831"
+      },
+      {
+        "id": "rf__edge-1792384003831-choose_a-1792384067192-target",
+        "label": "Edge from 1792384003831 to 1792384067192"
+      },
+      {
+        "id": "rf__edge-1792384067192-source-1792384164700-target",
+        "label": "Edge from 1792384067192 to 1792384164700"
+      },
+      {
+        "id": "rf__edge-1792384003831-choose_b-1792384067192-target",
+        "label": "Edge from 1792384003831 to 1792384067192"
+      },
+      {
+        "id": "rf__edge-1792384003831-revise-1792384067192-target",
+        "label": "Edge from 1792384003831 to 1792384067192"
+      },
+      {
+        "id": "rf__edge-1792384003831-__timeout-1792336138883-target",
+        "label": "Edge from 1792384003831 to 1792336138883"
+      },
+      {
+        "id": "rf__edge-1792384164700--1792384464294-target",
+        "label": "Edge from 1792384164700 to 1792384464294"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "1792318226260",
+        "text": "开始\n项目描述输入\nproject_brief\n必填\nclarification_notes"
+      },
+      {
+        "id": "1792318236475",
+        "text": "理解困难与能力缺口\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792318370008",
+        "text": "校验原文证据并标准化"
+      },
+      {
+        "id": "1792324164840",
+        "text": "缺项判断与追问编排"
+      },
+      {
+        "id": "1792324244880",
+        "text": "资料齐备分流\nIF\n缺项判断与追问编排\n/\nroute\n是\nreview\nELSE"
+      },
+      {
+        "id": "1792324320041",
+        "text": "输出｜人工审核结果\n记录人工审核结果\n/\nresult\nString\n记录人工审核结果\n/\nreview_record\nString\n记录人工审核结果\n/\nmatching_handoff\nString"
+      },
+      {
+        "id": "1792324965928",
+        "text": "整理原始需求与补充"
+      },
+      {
+        "id": "1792335658268",
+        "text": "负责人审核｜确认或退回\n提交方式\nWebapp\nAPPROVE\nREVISE\nTIMEOUT"
+      },
+      {
+        "id": "1792335869711",
+        "text": "记录人工审核结果"
+      },
+      {
+        "id": "1792336138883",
+        "text": "审核超时说明"
+      },
+      {
+        "id": "1792336163455",
+        "text": "输出｜审核超时\n审核超时说明\n/\noutput\nString"
+      },
+      {
+        "id": "1792379068228",
+        "text": "协作执行条件检查"
+      },
+      {
+        "id": "1792379729320",
+        "text": "核对能力要求与支持边界"
+      },
+      {
+        "id": "1792380379270",
+        "text": "提取能力要求与学习支持\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792383887444",
+        "text": "生成AI协作探索草稿\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792383955297",
+        "text": "区分原文事实与AI方案"
+      },
+      {
+        "id": "1792384003831",
+        "text": "先选方向｜可修改也可暂不选\n提交方式\nWebapp\nCHOOSE_A\nCHOOSE_B\nREVISE\nTIMEOUT"
+      },
+      {
+        "id": "1792384067192",
+        "text": "记录草稿方向与修改"
+      },
+      {
+        "id": "1792384164700",
+        "text": "AI依据选择与修改整理草稿\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792384464294",
+        "text": "输出｜AI协作草稿\nAI依据选择与修改整理草稿\n/\ntext\nString"
+      }
+    ]
+  },
+  "matching": {
+    "edges": [
+      {
+        "id": "rf__edge-1792406614150-source-1792406666344-target",
+        "label": "Edge from 1792406614150 to 1792406666344"
+      },
+      {
+        "id": "rf__edge-1792406666344--1792406909877-target",
+        "label": "Edge from 1792406666344 to 1792406909877"
+      },
+      {
+        "id": "rf__edge-1792406909877-true-1792407014382-target",
+        "label": "Edge from 1792406909877 to 1792407014382"
+      },
+      {
+        "id": "rf__edge-1792407014382--1792407074011-target",
+        "label": "Edge from 1792407014382 to 1792407074011"
+      },
+      {
+        "id": "rf__edge-1792407161340--1792407259427-target",
+        "label": "Edge from 1792407161340 to 1792407259427"
+      },
+      {
+        "id": "rf__edge-1792406909877-false-1792407381048-target",
+        "label": "Edge from 1792406909877 to 1792407381048"
+      },
+      {
+        "id": "rf__edge-1792407074011-source-1792498743222-target",
+        "label": "Edge from 1792407074011 to 1792498743222"
+      },
+      {
+        "id": "rf__edge-1792498743222-source-1792499852830-target",
+        "label": "Edge from 1792498743222 to 1792499852830"
+      },
+      {
+        "id": "rf__edge-1792499852830-true-1792499910375-target",
+        "label": "Edge from 1792499852830 to 1792499910375"
+      },
+      {
+        "id": "rf__edge-1792499910375--1792499966177-target",
+        "label": "Edge from 1792499910375 to 1792499966177"
+      },
+      {
+        "id": "rf__edge-1792499966177--1792500053959-target",
+        "label": "Edge from 1792499966177 to 1792500053959"
+      },
+      {
+        "id": "rf__edge-1792499852830-false-1792500053959-target",
+        "label": "Edge from 1792499852830 to 1792500053959"
+      },
+      {
+        "id": "rf__edge-1792500053959-source-1792407161340-target",
+        "label": "Edge from 1792500053959 to 1792407161340"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "1792406614150",
+        "text": "开始\n用户输入\nneed_json\n必填\ncandidates_json\n必填"
+      },
+      {
+        "id": "1792406666344",
+        "text": "核对数据包与硬条件"
+      },
+      {
+        "id": "1792406909877",
+        "text": "是否存在可评估候选\nIF\n核对数据包与硬条件\n/\nroute\n是\nready\nELSE"
+      },
+      {
+        "id": "1792407014382",
+        "text": "AI逐项判断任务与经历关联\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792407074011",
+        "text": "校验证据ID与逐项覆盖"
+      },
+      {
+        "id": "1792407161340",
+        "text": "排序并渲染依据与缺口"
+      },
+      {
+        "id": "1792407259427",
+        "text": "输出｜推荐依据与未覆盖项\n排序并渲染依据与缺口\n/\nresult\nString\n排序并渲染依据与缺口\n/\npayload\nString"
+      },
+      {
+        "id": "1792407381048",
+        "text": "输出｜条件未满足说明\n核对数据包与硬条件\n/\nresult\nString\n核对数据包与硬条件\n/\npayload\nString"
+      },
+      {
+        "id": "1792498743222",
+        "text": "提取待探索线索与问题"
+      },
+      {
+        "id": "1792499852830",
+        "text": "有探索线索才拟讨论\nIF\n提取待探索线索与问题\n/\nroute\n是\nneeds_probe\nELSE"
+      },
+      {
+        "id": "1792499910375",
+        "text": "AI拟定自愿短讨论\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792499966177",
+        "text": "校验讨论引用与草稿边界"
+      },
+      {
+        "id": "1792500053959",
+        "text": "合并探索与直接排序路径\n变量赋值\nstring\n校验讨论引用与草稿边界\n/\nresult\n提取待探索线索与问题\n/\nresult"
+      }
+    ]
+  },
+  "team": {
+    "edges": [
+      {
+        "id": "rf__edge-1792408323571--1792408509278-target",
+        "label": "Edge from 1792408323571 to 1792408509278"
+      },
+      {
+        "id": "rf__edge-1792408509278-true-1792408559561-target",
+        "label": "Edge from 1792408509278 to 1792408559561"
+      },
+      {
+        "id": "rf__edge-1792408559561--1792408611471-target",
+        "label": "Edge from 1792408559561 to 1792408611471"
+      },
+      {
+        "id": "rf__edge-1792408611471--1792408690204-target",
+        "label": "Edge from 1792408611471 to 1792408690204"
+      },
+      {
+        "id": "rf__edge-1792408690204--1792408771881-target",
+        "label": "Edge from 1792408690204 to 1792408771881"
+      },
+      {
+        "id": "rf__edge-1792408509278-false-1792408876299-target",
+        "label": "Edge from 1792408509278 to 1792408876299"
+      },
+      {
+        "id": "rf__edge-1792408247824-source-1792460678359-target",
+        "label": "Edge from 1792408247824 to 1792460678359"
+      },
+      {
+        "id": "rf__edge-1792460678359--1792461383439-target",
+        "label": "Edge from 1792460678359 to 1792461383439"
+      },
+      {
+        "id": "rf__edge-1792461383439-a12638ad-6f04-4add-9bdb-b284508adf14-1792461520684-target",
+        "label": "Edge from 1792461383439 to 1792461520684"
+      },
+      {
+        "id": "rf__edge-1792461520684--1792461574910-target",
+        "label": "Edge from 1792461520684 to 1792461574910"
+      },
+      {
+        "id": "rf__edge-1792461383439-true-1792408323571-target",
+        "label": "Edge from 1792461383439 to 1792408323571"
+      },
+      {
+        "id": "rf__edge-1792461383439-false-1792460981869-target",
+        "label": "Edge from 1792461383439 to 1792460981869"
+      },
+      {
+        "id": "rf__edge-1792461574910--1792463224718-target",
+        "label": "Edge from 1792461574910 to 1792463224718"
+      },
+      {
+        "id": "rf__edge-1792463224718-true-1792463257417-target",
+        "label": "Edge from 1792463224718 to 1792463257417"
+      },
+      {
+        "id": "rf__edge-1792463257417-accept-1792463469904-target",
+        "label": "Edge from 1792463257417 to 1792463469904"
+      },
+      {
+        "id": "rf__edge-1792463469904--1792463834565-target",
+        "label": "Edge from 1792463469904 to 1792463834565"
+      },
+      {
+        "id": "rf__edge-1792463834565-true-1792463915587-target",
+        "label": "Edge from 1792463834565 to 1792463915587"
+      },
+      {
+        "id": "rf__edge-1792463834565-false-1792464397639-target",
+        "label": "Edge from 1792463834565 to 1792464397639"
+      },
+      {
+        "id": "rf__edge-1792463224718-false-1792461650237-target",
+        "label": "Edge from 1792463224718 to 1792461650237"
+      },
+      {
+        "id": "rf__edge-1792463257417-revise-1792463469904-target",
+        "label": "Edge from 1792463257417 to 1792463469904"
+      },
+      {
+        "id": "rf__edge-1792463257417-decline-1792463469904-target",
+        "label": "Edge from 1792463257417 to 1792463469904"
+      },
+      {
+        "id": "rf__edge-1792463257417-__timeout-1792464580988-target",
+        "label": "Edge from 1792463257417 to 1792464580988"
+      },
+      {
+        "id": "rf__edge-1792464580988--1792464630645-target",
+        "label": "Edge from 1792464580988 to 1792464630645"
+      },
+      {
+        "id": "rf__edge-1792463915587-accept-1792464165204-target",
+        "label": "Edge from 1792463915587 to 1792464165204"
+      },
+      {
+        "id": "rf__edge-1792463915587-revise-1792464165204-target",
+        "label": "Edge from 1792463915587 to 1792464165204"
+      },
+      {
+        "id": "rf__edge-1792463915587-decline-1792464165204-target",
+        "label": "Edge from 1792463915587 to 1792464165204"
+      },
+      {
+        "id": "rf__edge-1792463915587-__timeout-1792464580988-target",
+        "label": "Edge from 1792463915587 to 1792464580988"
+      },
+      {
+        "id": "rf__edge-1792466733857--1792466783125-target",
+        "label": "Edge from 1792466733857 to 1792466783125"
+      },
+      {
+        "id": "rf__edge-1792464165204--1792466869215-target",
+        "label": "Edge from 1792464165204 to 1792466869215"
+      },
+      {
+        "id": "rf__edge-1792466869215-true-1792466918262-target",
+        "label": "Edge from 1792466869215 to 1792466918262"
+      },
+      {
+        "id": "rf__edge-1792466869215-false-1792464277292-target",
+        "label": "Edge from 1792466869215 to 1792464277292"
+      },
+      {
+        "id": "rf__edge-1792466918262-source-1792466783125-target",
+        "label": "Edge from 1792466918262 to 1792466783125"
+      },
+      {
+        "id": "rf__edge-1792478573728--1792478658112-target",
+        "label": "Edge from 1792478573728 to 1792478658112"
+      },
+      {
+        "id": "rf__edge-1792478658112--1792478742575-target",
+        "label": "Edge from 1792478658112 to 1792478742575"
+      },
+      {
+        "id": "rf__edge-1792478742575-false-1792478804434-target",
+        "label": "Edge from 1792478742575 to 1792478804434"
+      },
+      {
+        "id": "rf__edge-1792478742575-true-1792478884718-target",
+        "label": "Edge from 1792478742575 to 1792478884718"
+      },
+      {
+        "id": "rf__edge-1792478884718-accept-1792479096787-target",
+        "label": "Edge from 1792478884718 to 1792479096787"
+      },
+      {
+        "id": "rf__edge-1792479096787--1792479219856-target",
+        "label": "Edge from 1792479096787 to 1792479219856"
+      },
+      {
+        "id": "rf__edge-1792479219856-false-1792479278278-target",
+        "label": "Edge from 1792479219856 to 1792479278278"
+      },
+      {
+        "id": "rf__edge-1792479219856-true-1792479365090-target",
+        "label": "Edge from 1792479219856 to 1792479365090"
+      },
+      {
+        "id": "rf__edge-1792479365090-accept-1792479496079-target",
+        "label": "Edge from 1792479365090 to 1792479496079"
+      },
+      {
+        "id": "rf__edge-1792479496079--1792479590600-target",
+        "label": "Edge from 1792479496079 to 1792479590600"
+      },
+      {
+        "id": "rf__edge-1792463834565-e8b6b0fe-1357-4589-9f79-cd04d9102aa4-1792466733857-target",
+        "label": "Edge from 1792463834565 to 1792466733857"
+      },
+      {
+        "id": "rf__edge-1792478884718-revise-1792479096787-target",
+        "label": "Edge from 1792478884718 to 1792479096787"
+      },
+      {
+        "id": "rf__edge-1792478884718-decline-1792479096787-target",
+        "label": "Edge from 1792478884718 to 1792479096787"
+      },
+      {
+        "id": "rf__edge-1792478884718-__timeout-1792464580988-target",
+        "label": "Edge from 1792478884718 to 1792464580988"
+      },
+      {
+        "id": "rf__edge-1792479365090-revise-1792479496079-target",
+        "label": "Edge from 1792479365090 to 1792479496079"
+      },
+      {
+        "id": "rf__edge-1792479365090-decline-1792479496079-target",
+        "label": "Edge from 1792479365090 to 1792479496079"
+      },
+      {
+        "id": "rf__edge-1792479365090-__timeout-1792464580988-target",
+        "label": "Edge from 1792479365090 to 1792464580988"
+      },
+      {
+        "id": "rf__edge-1792466783125--1792480187071-target",
+        "label": "Edge from 1792466783125 to 1792480187071"
+      },
+      {
+        "id": "rf__edge-1792480187071-source-1792478573728-target",
+        "label": "Edge from 1792480187071 to 1792478573728"
+      },
+      {
+        "id": "rf__edge-1792408509278-ffbc7c68-7793-4111-951c-2bae48d7342b-1792545433459-target",
+        "label": "Edge from 1792408509278 to 1792545433459"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "1792408247824",
+        "text": "开始\n用户输入\nneed_json\n必填\ncandidates_json\n必填"
+      },
+      {
+        "id": "1792408323571",
+        "text": "核对任务工时与候选条件"
+      },
+      {
+        "id": "1792408509278",
+        "text": "可进行任务证据评估\nCASE 1\nIF\n核对任务工时与候选条件\n/\nroute\n是\nready\nCASE 2\nELIF\n核对任务工时与候选条件\n/\nroute\n是\nmatched_plan\nELSE"
+      },
+      {
+        "id": "1792408559561",
+        "text": "AI理解每项任务与个人经历\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792408611471",
+        "text": "校验个人证据与任务覆盖矩阵"
+      },
+      {
+        "id": "1792408690204",
+        "text": "组合枚举与主责工时分配"
+      },
+      {
+        "id": "1792408771881",
+        "text": "输出｜组合方案与分工解释\n组合枚举与主责工时分配\n/\nresult\nString\n组合枚举与主责工时分配\n/\npayload\nString"
+      },
+      {
+        "id": "1792408876299",
+        "text": "输出｜组队前置条件不足\n核对任务工时与候选条件\n/\nresult\nString\n核对任务工时与候选条件\n/\npayload\nString"
+      },
+      {
+        "id": "1792460678359",
+        "text": "核对角色职责与同周期工时\n校验角色分离、需求版本、本人任务与同一合作时段工时预算；普通组队请求返回skip，由后续互斥分流处理。本节点不调用模型，也不代替任何一方确认。"
+      },
+      {
+        "id": "1792460981869",
+        "text": "输出｜合作约定前置校验\n核对角色职责与同周期工时\n/\nresult\nString\n核对角色职责与同周期工时\n/\nroute\nString\n核对角色职责与同周期工时\n/\npayload\nString"
+      },
+      {
+        "id": "1792461383439",
+        "text": "按组队约定与异常互斥分流\nCASE 1\nIF\n核对角色职责与同周期工时\n/\nroute\n是\nskip\nCASE 2\nELIF\n核对角色职责与同周期工时\n/\nroute\n是\nready\nELSE"
+      },
+      {
+        "id": "1792461520684",
+        "text": "AI起草可编辑的合作条款\ndeepseek-v4-flash\nCHAT\nAI将已有分工和模糊验收想法整理成可编辑条款，区分原文、AI建议和未知，不代填报酬或精确日期；后续代码核验来源。"
+      },
+      {
+        "id": "1792461574910",
+        "text": "核对来源并封存约定版本1"
+      },
+      {
+        "id": "1792461650237",
+        "text": "输出｜待双方确认的约定草稿\n核对来源并封存约定版本1\n/\nresult\nString\n核对来源并封存约定版本1\n/\npayload\nString\n核对来源并封存约定版本1\n/\nroute\nString"
+      },
+      {
+        "id": "1792463224718",
+        "text": "条款通过校验后才进入双方确认\nIF\n核对来源并封存约定版本1\n/\nroute\n是\nnext\nELSE"
+      },
+      {
+        "id": "1792463257417",
+        "text": "负责人｜核对并选择版本1\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+      },
+      {
+        "id": "1792463469904",
+        "text": "负责人选择｜记录版本与事件"
+      },
+      {
+        "id": "1792463834565",
+        "text": "负责人已接受当前版本\nCASE 1\nIF\n负责人选择｜记录版本与事件\n/\nroute\n是\nnext\nCASE 2\nELIF\n负责人选择｜记录版本与事件\n/\nroute\n是\nrevise\nELSE"
+      },
+      {
+        "id": "1792463915587",
+        "text": "承担者｜核对并选择版本1\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+      },
+      {
+        "id": "1792464165204",
+        "text": "承担者选择｜记录版本与事件"
+      },
+      {
+        "id": "1792464277292",
+        "text": "输出｜双方确认与交付入口\n承担者选择｜记录版本与事件\n/\nresult\nString\n承担者选择｜记录版本与事件\n/\npayload\nString\n承担者选择｜记录版本与事件\n/\nroute\nString\n承担者选择｜记录版本与事件\n/\nagreement_json\nString"
+      },
+      {
+        "id": "1792464397639",
+        "text": "输出｜负责人拒绝或要求修改\n负责人选择｜记录版本与事件\n/\nresult\nString\n负责人选择｜记录版本与事件\n/\npayload\nString\n负责人选择｜记录版本与事件\n/\nroute\nString\n负责人选择｜记录版本与事件\n/\nagreement_json\nString"
+      },
+      {
+        "id": "1792464580988",
+        "text": "确认超时｜本轮不成立合作"
+      },
+      {
+        "id": "1792464630645",
+        "text": "输出｜确认超时\n确认超时｜本轮不成立合作\n/\noutput\nString"
+      },
+      {
+        "id": "1792466733857",
+        "text": "负责人修改｜保留本轮意见与历史"
+      },
+      {
+        "id": "1792466783125",
+        "text": "汇合本轮实际修改来源\n变量赋值\nstring\n负责人修改｜保留本轮意见与历史\n/\noutput\n承担者修改｜保留本轮意见与历史\n/\noutput"
+      },
+      {
+        "id": "1792466869215",
+        "text": "承担者是否要求修改条款\nIF\n承担者选择｜记录版本与事件\n/\nroute\n是\nrevise\nELSE"
+      },
+      {
+        "id": "1792466918262",
+        "text": "承担者修改｜保留本轮意见与历史"
+      },
+      {
+        "id": "1792478573728",
+        "text": "AI逐条整理本轮修改意见\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792478658112",
+        "text": "核对修改范围并生成新旧条款差异"
+      },
+      {
+        "id": "1792478742575",
+        "text": "修改通过核对后才可重新确认\nIF\n核对修改范围并生成新旧条款差异\n/\nroute\n是\nnext\nELSE"
+      },
+      {
+        "id": "1792478804434",
+        "text": "输出｜修改意见需进一步核对\n核对修改范围并生成新旧条款差异\n/\nresult\nString\n核对修改范围并生成新旧条款差异\n/\npayload\nString\n核对修改范围并生成新旧条款差异\n/\nroute\nString"
+      },
+      {
+        "id": "1792478884718",
+        "text": "负责人｜重新确认新版本\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+      },
+      {
+        "id": "1792479096787",
+        "text": "负责人新版本选择｜独立记录"
+      },
+      {
+        "id": "1792479219856",
+        "text": "新版本仍需负责人先接受\nIF\n负责人新版本选择｜独立记录\n/\nroute\n是\nnext\nELSE"
+      },
+      {
+        "id": "1792479278278",
+        "text": "输出｜新版本负责人未接受\n负责人新版本选择｜独立记录\n/\nresult\nString\n负责人新版本选择｜独立记录\n/\npayload\nString\n负责人新版本选择｜独立记录\n/\nroute\nString"
+      },
+      {
+        "id": "1792479365090",
+        "text": "承担者｜重新确认新版本\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+      },
+      {
+        "id": "1792479496079",
+        "text": "承担者新版本选择｜核对双向确认"
+      },
+      {
+        "id": "1792479590600",
+        "text": "输出｜修改后最终状态与交付入口\n承担者新版本选择｜核对双向确认\n/\nresult\nString\n承担者新版本选择｜核对双向确认\n/\npayload\nString\n承担者新版本选择｜核对双向确认\n/\nroute\nString\n承担者新版本选择｜核对双向确认\n/\nagreement_json\nString"
+      },
+      {
+        "id": "1792480187071",
+        "text": "提取当前修改与可定位任务"
+      },
+      {
+        "id": "1792545433459",
+        "text": "输出｜承接匹配的周分工建议\n核对任务工时与候选条件\n/\nresult\nString\n核对任务工时与候选条件\n/\npayload\nString"
+      }
+    ]
+  },
+  "delivery": {
+    "edges": [
+      {
+        "id": "rf__edge-1792409468829-source-1792409506170-target",
+        "label": "Edge from 1792409468829 to 1792409506170"
+      },
+      {
+        "id": "rf__edge-1792409506170--1792409683413-target",
+        "label": "Edge from 1792409506170 to 1792409683413"
+      },
+      {
+        "id": "rf__edge-1792409683413-true-1792409761510-target",
+        "label": "Edge from 1792409683413 to 1792409761510"
+      },
+      {
+        "id": "rf__edge-1792409761510--1792415247112-target",
+        "label": "Edge from 1792409761510 to 1792415247112"
+      },
+      {
+        "id": "rf__edge-1792415247112--1792415339919-target",
+        "label": "Edge from 1792415247112 to 1792415339919"
+      },
+      {
+        "id": "rf__edge-1792416430453--1792416670251-target",
+        "label": "Edge from 1792416430453 to 1792416670251"
+      },
+      {
+        "id": "rf__edge-1792416670251-true-1792416719562-target",
+        "label": "Edge from 1792416670251 to 1792416719562"
+      },
+      {
+        "id": "rf__edge-1792416810155--1792416862622-target",
+        "label": "Edge from 1792416810155 to 1792416862622"
+      },
+      {
+        "id": "rf__edge-1792416670251-false-1792417068992-target",
+        "label": "Edge from 1792416670251 to 1792417068992"
+      },
+      {
+        "id": "rf__edge-1792409683413-false-1792417090400-target",
+        "label": "Edge from 1792409683413 to 1792417090400"
+      },
+      {
+        "id": "rf__edge-1792415339919-__timeout-1792417137405-target",
+        "label": "Edge from 1792415339919 to 1792417137405"
+      },
+      {
+        "id": "rf__edge-1792415339919-approve-1792416430453-target",
+        "label": "Edge from 1792415339919 to 1792416430453"
+      },
+      {
+        "id": "rf__edge-1792415339919-revise-1792416430453-target",
+        "label": "Edge from 1792415339919 to 1792416430453"
+      },
+      {
+        "id": "rf__edge-1792415339919-dispute-1792416430453-target",
+        "label": "Edge from 1792415339919 to 1792416430453"
+      },
+      {
+        "id": "rf__edge-1792416719562-public_draft-1792416810155-target",
+        "label": "Edge from 1792416719562 to 1792416810155"
+      },
+      {
+        "id": "rf__edge-1792416719562-private-1792416810155-target",
+        "label": "Edge from 1792416719562 to 1792416810155"
+      },
+      {
+        "id": "rf__edge-1792416719562-revise-1792416810155-target",
+        "label": "Edge from 1792416719562 to 1792416810155"
+      },
+      {
+        "id": "rf__edge-1792416719562-__timeout-1792417137405-target",
+        "label": "Edge from 1792416719562 to 1792417137405"
+      },
+      {
+        "id": "rf__edge-1792417137405--1792489311453-target",
+        "label": "Edge from 1792417137405 to 1792489311453"
+      },
+      {
+        "id": "rf__edge-1792489311453-source-1792417169061-target",
+        "label": "Edge from 1792489311453 to 1792417169061"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "1792409468829",
+        "text": "开始\n用户输入\nagreement_json\n必填\nsubmission_text\n必填"
+      },
+      {
+        "id": "1792409506170",
+        "text": "核对约定版本与提交状态"
+      },
+      {
+        "id": "1792409683413",
+        "text": "版本与约定可进入验收\nIF\n核对约定版本与提交状态\n/\nroute\n是\nready\nELSE"
+      },
+      {
+        "id": "1792409761510",
+        "text": "AI对照交付标准与本人工作\ndeepseek-v4-flash\nCHAT"
+      },
+      {
+        "id": "1792415247112",
+        "text": "核对引用并生成验收辅助卡"
+      },
+      {
+        "id": "1792415339919",
+        "text": "验收者｜通过退回或争议\n提交方式\nWebapp\nAPPROVE\nREVISE\nDISPUTE\nTIMEOUT"
+      },
+      {
+        "id": "1792416430453",
+        "text": "记录验收决定与贡献草稿"
+      },
+      {
+        "id": "1792416670251",
+        "text": "验收通过后再核对个人贡献\nIF\n记录验收决定与贡献草稿\n/\nroute\n是\naccepted\nELSE"
+      },
+      {
+        "id": "1792416719562",
+        "text": "本人核对贡献与公开意愿\n提交方式\nWebapp\nPUBLIC_DRAFT\nPRIVATE\nREVISE\nTIMEOUT"
+      },
+      {
+        "id": "1792416810155",
+        "text": "记录本人核对与可见范围"
+      },
+      {
+        "id": "1792416862622",
+        "text": "交付与贡献结果\n记录本人核对与可见范围\n/\nresult\nString\n记录本人核对与可见范围\n/\npayload\nString"
+      },
+      {
+        "id": "1792417068992",
+        "text": "退回或争议处理结果\n记录验收决定与贡献草稿\n/\nresult\nString\n记录验收决定与贡献草稿\n/\npayload\nString"
+      },
+      {
+        "id": "1792417090400",
+        "text": "版本或约定检查未通过\n核对约定版本与提交状态\n/\nresult\nString\n核对约定版本与提交状态\n/\nroute\nString"
+      },
+      {
+        "id": "1792417137405",
+        "text": "模板转换"
+      },
+      {
+        "id": "1792417169061",
+        "text": "人工环节未完成结果\n模板转换\n/\noutput\nString\n封装人工确认超时事件\n/\nresult\nString"
+      },
+      {
+        "id": "1792489311453",
+        "text": "封装人工确认超时事件"
+      }
+    ]
+  }
+}

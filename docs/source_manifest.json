@@ -1,0 +1,530 @@
+[
+  {
+    "file": "reference/researchmesh_agreement_build/owner_record.py",
+    "sha256": "fb99d1c0e3d17bf885995db990aa17f7de7baae9483445e796164c3f3528b8ec"
+  },
+  {
+    "file": "reference/researchmesh_agreement_build/performer_record.py",
+    "sha256": "918d58790b6d073ff8b4d01cb5800b9746aa386c67230bafdebb527f1178bb23"
+  },
+  {
+    "file": "reference/researchmesh_agreement_build/preflight_inplace.py",
+    "sha256": "01744fd5442c01ef76ed2d1699e2ff5a62fb342118cb0f3c3603b53b1bc27e68"
+  },
+  {
+    "file": "reference/researchmesh_agreement_build/prompt_agreement_step2.txt",
+    "sha256": "fbd27ae959a0680420d5cbfddfa2522d261a9241b5fe4a91c4a3704afa7efdf4"
+  },
+  {
+    "file": "reference/researchmesh_agreement_build/validator_step2.py",
+    "sha256": "98a7498b3ce7fbe75f8dc7b7d9fdd1597a135e270d5b5a14c4b3f77ac335397b"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/agreement_contract.py",
+    "sha256": "061b382d54d5b14cc55a9d459c0138b3bb6dbd5db66dee0f4ca4cc247e95136e"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/chain_delivery_bridge.py",
+    "sha256": "ebca0a3b619191f580ca1a08762bbccd39076d56dd439cfe3fcd15f1a178ab87"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/cross_app_bridge.py",
+    "sha256": "2d5f31415ee3a059bd03e82ff705cc8f6ec5622f28f853745c62b452fa2df393"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/current_agreement_demo.json",
+    "sha256": "7f578677c443ed84990c618d18c096a8639393916f9c47d5a197698983f2f214"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/delivery_fixture.json",
+    "sha256": "077fc0f189dd87f0314145803a108a4c6937e721712d70b1684509d6ca29f30a"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/delivery_prepare.py",
+    "sha256": "35d9af559f74a557a0d66729a376f62bb5f461bb36d82213819fcabea77eee30"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/live_agreement_outputs.json",
+    "sha256": "a750dd82b01ec610c2ada4270b9df1e052223a93514e5780246344bece5e0526"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/live_delivery_outputs.json",
+    "sha256": "ee0ed1d143cfc9726197d00fcfdc31fea400b23c2b6c6080e64722c5e8a86724"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/reviewer_demo_note.txt",
+    "sha256": "a8de353e87bf5ab89f5cf4300aaf7a18899c8b65a4ea13795bf62b909e21c737"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/revision_note.txt",
+    "sha256": "7f469fcf6a44cd138790ebb96b448058ab0f901af2ec580126a3901fb84b3b88"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/revision_prompt_added_rule.txt",
+    "sha256": "98563269b440a23595f874aea627927b58cc49713c07f1b65c38982f6eb1208f"
+  },
+  {
+    "file": "reference/researchmesh_agreement_delivery_step13/test_step13.py",
+    "sha256": "04350b571ab74f58f15736d0d3cc6e8d66ee5990aefe1fdd298723ff8d36cd36"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/common.py",
+    "sha256": "57fda5780ef3b3951a98dcfe778b2e3d0c56093ee4901e7d033f5b407a778d79"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/owner_v2.py",
+    "sha256": "2bd13a1331e8a582465dc831446a87ed29efb4ff941fff3b7bb9ab05db4ce620"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/performer_v2.py",
+    "sha256": "003b9bf6384a807d61eb4ddb38de3b4fe32fd412a7fbdd65008b3e34ebfb1822"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/prepare_revision.py",
+    "sha256": "9ed067ff3d42efc0ff0b6b840b4ac9177fcfeb729a4afbc2493c33fc968e579e"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/revision_prompt.txt",
+    "sha256": "3e5c010b05c83fa7878ee1b3e820b3adad09436003cf44a855928fc427da2e7f"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/revision_tail.py",
+    "sha256": "410223a9cbdb49b4bd693df759143f74b255f0ca2e0d41408fea4f283841ac64"
+  },
+  {
+    "file": "reference/researchmesh_agreement_step4/revision_validate.py",
+    "sha256": "4fd845e9d6caf86b5038acd8efc784e2616c680509b2180b86a1ac94349f696c"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/delivery_contributor_public_draft_detail.json",
+    "sha256": "e507d92037b22f1aab1050e3b60be61dade0b1cfc64e22dea6afd933a96412ad"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/delivery_reviewer_approve_events.json",
+    "sha256": "535b172e4f26003c45f02e4fa70417ece1e50d4c1a16289c9c123a6c9ac3806f"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/delivery_start_events.json",
+    "sha256": "e54a81150f3377344ba898f79d84d28f7e27cf808332f7aa7bdad5eeeb153463"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/dify_client.py",
+    "sha256": "f31c57680031fbf125daa5558da82edcb92d3e85c2a360cfb7a557bca7b1df6a"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/dify_event_contract.py",
+    "sha256": "6bb2256128744d67298c43ea82c61d50ac9b6ee3a927a515ca5a6809dd878e25"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_owner_accept_events.json",
+    "sha256": "2a7ca6dc08a71326e5b26c5bfdfebd3e24616e140919b27a3eede7c578899103"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_owner_v2_accept_events.json",
+    "sha256": "c6cdae137224cd9dcff60e858e6640db51f3704d40e368f38911f86ae2699756"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_performer_revise_events.json",
+    "sha256": "8624f9c2b9354c1a157ecb7e607740e9fd81fd982479be929f1c6d934e9a9e07"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_performer_v2_accept_detail.json",
+    "sha256": "885ad1b312b0ac1f30e8bffb40b4b781fc7087c9bb1eb5ab57a8a367138eacea"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_performer_v2_accept_events.json",
+    "sha256": "42905abc9f1fcd14a79f3ebd6e47815379ba5bb8b97a58b27c14a56de437fd77"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/team_start_events.json",
+    "sha256": "d9df24ad4fac7706180a31f691da28af152ac3106db0730a3000814101240145"
+  },
+  {
+    "file": "reference/researchmesh_api_step6/test_live_contract.py",
+    "sha256": "f2af045d2dfc0ef3aa6262a65fa6c70133cf98f49aad99b7de17bb4de7cc13aa"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/candidate_adapter.py",
+    "sha256": "00a3fabab383f1304633466083e2fa1da3c3a7b296756cdda8b2fea0bba8ce21"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/draft_validate.py",
+    "sha256": "0cbb1ba6d6d448b8ea917fb0e7525d9d3e4d1cfd80d768941a6af17efce43736"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/extraction_prompt.txt",
+    "sha256": "fb1ff1deccc81c9ac93cd2efb07d292c65a70a1be3bd36dc655e9a8b59ed596e"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/live_confirm_outputs.json",
+    "sha256": "07483e3cf8b308680dc249670b67064d1615be365380329f733bcd872803c2d7"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/live_correction_outputs.json",
+    "sha256": "558f5a5187bb213e8ba52817ad433ccc222748f6fe17a1925e00e8a53f38a99a"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/live_draft_output.json",
+    "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/live_private_outputs.json",
+    "sha256": "fe5a8dcfe007583931ebf340f54fb83edbd7fad56abd0450e3fd1b31ccd9a45d"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/matching_validate_reference.py",
+    "sha256": "b10a14cbffd9829307a92e59e44623b39f03fa44a7f512380ee49c696ecc1bb1"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/review_record.py",
+    "sha256": "c44f4221a27d9a73ebfd8491483fb4cc45b0529bacf52c057df28f8233993840"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/test_capability.py",
+    "sha256": "86fee8ce6fd3ae5f3ff8383f04345400f88781642a9958430e40de9e3badb16f"
+  },
+  {
+    "file": "reference/researchmesh_capability_step7/timeout_record.py",
+    "sha256": "3464f69e0df1e7d6d782f75bb6c0fd9a6f422b0eb51100d07748ca356bf6253b"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/api_verification.json",
+    "sha256": "2514b1bdfc3d394dcae91847fc1479d5242e48b927af3357f45bdb4503020dda"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/capability_link_result.json",
+    "sha256": "2ff0a6311ec4dae59a285dd4125d2117ff8282d5fd5ad3d78b261785ace4036f"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/check_capability_link.py",
+    "sha256": "c491b2c71cfe7931936962d4f80eb332f4b7776e22a62b72e6c032199c582aa0"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/delivery_private_outputs.json",
+    "sha256": "20b55d6d33cdc295ccc6b25b2caa14ddca28b3374525209261736cc5dfb70113"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/delivery_stale_outputs.json",
+    "sha256": "9bffe6acbcde3b85caffb7c80937287bd6597770674be6fbc49155a78f1162c5"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/live_topology.json",
+    "sha256": "b07ba555a7b3733a4f9fafa6e17190410a76ce093bf6349adfa6b0296a84d111"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/regression_summary.json",
+    "sha256": "94718b7cfe2849f289a817e1d424d6a950cf5677270d57049577e3e9e4d78546"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/team_matched_plan_outputs.json",
+    "sha256": "71bd9b1a8390e8983eef1f1b6754b99a75b96fe67c3a7e697a7e8461b47a498e"
+  },
+  {
+    "file": "reference/researchmesh_closing_step14/team_stale_outputs.json",
+    "sha256": "4a1931a083d809385e0e2b8f29d4577c2c02cceca4b990a859cd0280dcfab76d"
+  },
+  {
+    "file": "reference/researchmesh_deepseek_migration_step9/capability_flash_result.json",
+    "sha256": "a371d06922386d1cfe0b3458afeab02a7738f340003dc40dd674cbf1d63e2d41"
+  },
+  {
+    "file": "reference/researchmesh_deepseek_migration_step9/migration_inventory.json",
+    "sha256": "addb2230c4b6d1e3dc816fafaea870474696ac69421a8a8967ab5056dc4ba198"
+  },
+  {
+    "file": "reference/researchmesh_delivery_handoff/consent.py",
+    "sha256": "cbe9a9c3e42d236b50b36ed9deeb0e050ba34d7cfd42ddabbdf52617096a2960"
+  },
+  {
+    "file": "reference/researchmesh_delivery_handoff/llm_prompt.txt",
+    "sha256": "c584c8945c736f34f291ae8385e23023bc5ffb5ff2283fee71144f76bf5a1109"
+  },
+  {
+    "file": "reference/researchmesh_delivery_handoff/review.py",
+    "sha256": "caafde9246005bf21cf95e7b72e319ad9f0b1a181144a2e3fddfb2a086e9e439"
+  },
+  {
+    "file": "reference/researchmesh_delivery_handoff/validate.py",
+    "sha256": "84f89363ac70b9af71c10c4d4374bf4046be4d8615e01f3fc7ef6c683a60bcab"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/api_verification.json",
+    "sha256": "e397404e8e3058a4678319a72a2d2ab37255a32f8849bdf0744001735d20593a"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_confirm_events.json",
+    "sha256": "265a5f800d3b4aff36f844eaee01b8b2b04f28c7cadb1f46041fe0728f06b5bc"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_confirm_form.json",
+    "sha256": "53a6a5e28425436a64bce13318513fb1d91f7de3e119018e8ac796d865810088"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_confirm_inputs.json",
+    "sha256": "d00e036a1424303b02b755e03998f171ac2db40578ec6d7c219038a4cc17b984"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_confirm_use_events.json",
+    "sha256": "f53408f131f649b493ca87764532f5eb0d587bea81ca222b7cfa54cba268a22c"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_confirm_use_outputs.json",
+    "sha256": "0625b7b3e30df84dacc996fcd1d93563cdbd7454f61bfa6ce118411f9a619ab4"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/capability_parameters.json",
+    "sha256": "c2030f641ba2a0da2c4733d3402887456d3ca22cae9abd980b7faa371f9f7957"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/current_api_need_bridge.json",
+    "sha256": "4ef9af2b2a1560c80b7989de0aeffe005e8e380eaa97ab35c03ce653a835071a"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_approve_events.json",
+    "sha256": "f5b582a67401a41af01c4a32fe6e9d1057ed15a1cd9935d5ed301a1659872c97"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_approve_outputs.json",
+    "sha256": "45de05806938ac369b480687a1558304ea14711f57a9402cad3acce83c4460e1"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_choose_a_events.json",
+    "sha256": "3a6c9883a88ce8a79c8f7ceaef4a5ea9119eaca0350c6904265f2f10c9147081"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_choose_a_outputs.json",
+    "sha256": "8edd840f8c19cdd3e7fb684d0a03ae96effea4e98680fa52217456a3257524e4"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_complete_events.json",
+    "sha256": "163db970230b376ab43b77e643d31832dd772dc0c03ea3c259f3d44151cc1546"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_complete_form.json",
+    "sha256": "7e7cb0155bc9aed89e4a1abfddc255c79178273cb3963a239b12a726139eecd2"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_complete_inputs.json",
+    "sha256": "e75642ae0e14cdc7757ad67f8b29faa873f76478c85a0f6d8a50e4d1af868adb"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_parameters.json",
+    "sha256": "4a627e3d7635a6e23c1bb1d48829817cc020641871bc2154eb3d54f4933592cc"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_vague_events.json",
+    "sha256": "4a2a86c8d8c1c3f7b94bf953603cc54bacd33cf16006c4924067f0f8312fc741"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_vague_form.json",
+    "sha256": "6c81ff935fcc0da8a4c0534711457362d7ce892c3018277a5fceeb34eb68195c"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/demand_vague_inputs.json",
+    "sha256": "2ac514bbc43f7cd71d2bfecdac9e165805f16db88bad1ea02d543b142a307657"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/dify_event_contract.py",
+    "sha256": "cb9392033b753fa08757216aba5b882a3e4f82772ebcf20f9674d78043ef39e7"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/matching_exploration_events.json",
+    "sha256": "86af9c2c3e5566eedeecf595a7a704967134dcd6c2691657570e341477c43c0d"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/matching_exploration_inputs.json",
+    "sha256": "c358efa72b36d3f48905e85c33a19cb03ff495c23fbedb6490add16cf5c34a6a"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/matching_exploration_outputs.json",
+    "sha256": "af6f29ba7af9dbc79b40f940ccb48d238f5a4a1e84787b35bbe754b6ea116942"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/matching_parameters.json",
+    "sha256": "907f33a51985e69e912680c8112c007257d6350c8dc31755586d52c9255b8f06"
+  },
+  {
+    "file": "reference/researchmesh_finalize_step15/test_step15.py",
+    "sha256": "487736b30206bc7d190326c23bcef3e4300e82557eb2f45d9ad1580040016c92"
+  },
+  {
+    "file": "reference/researchmesh_integration_step5/delivery_timeout.py",
+    "sha256": "5b8f51af4c4cd50acb4a6e32c8cca0b716f9109dde9b9047d17c487663fc5113"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/agreement_input_from_actual_team.json",
+    "sha256": "a4375002d13f7740709b2c56840deaa1326d535042263cffa12fd96d55163da4"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/current_after_actual_team.json",
+    "sha256": "8ea345c3b3324af4ff50adb604488406308e9f809555b8198e84da1e186ba897"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/filter_component.py",
+    "sha256": "9c5d82e57805afe2bedfe3f8cb7cc473f061e41617360bd9397d9c10c59ac368"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/live_fixture.json",
+    "sha256": "01f20451ec22f1113f99901744ecafb6539b2453901548dd1f13910fd70f1422"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/live_stale_outputs.json",
+    "sha256": "347508932d78e49c2aacdbdaf8b302311ac0a9467c8ceffd44f496b921b8c634"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/live_team_outputs.json",
+    "sha256": "1227ea523245cf8f9b2df3c74a9e168c7f4496a666668a94495d4a3568f77764"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/preflight_tail.py",
+    "sha256": "235fbab00b22d7e1308483ac0eeffffc5136d7a2f60e6fbfece13d16f6669417"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/review_bridge.py",
+    "sha256": "b2ac00d0c3c1989713e1a1e4ebcf5b0906d24d4d69aef249d8c080769cb4d2f5"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/solve_component.py",
+    "sha256": "630b9b5fc062808144257af08604dff5016854e596305ce998b91ec70e3056f1"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/team_bridge.py",
+    "sha256": "a2c4ee585d2d6dd6bd8f7167f3eb381f9e5fe35dc0f9858af12cea6325ff5413"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/team_preflight.py",
+    "sha256": "97ecb503fb9a3e459d6a061354e952be35afa715c04f38b6e59fa95ba073626e"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/team_preflight_original.py",
+    "sha256": "b370c198c23ea5a7215c2ed639ea27ce1eb73bbb5e6f21520657b168f8d0afc4"
+  },
+  {
+    "file": "reference/researchmesh_match_team_step12/test_step12.py",
+    "sha256": "0ade3ceab64b772ece3bfd733776d36aeefd930050af5477f4b220a00b15bf87"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/exploration_prepare.py",
+    "sha256": "00d76738faadb0b024d4607d2c2523a60957f022cf35b8309f10a4915a9a3fab"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/home_contribution_fixture.json",
+    "sha256": "4e2d99e6c5489166ee358254bd23d7814e78213f180f1a85aa640d5db128ddbe"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/home_profile.py",
+    "sha256": "3520228873fe20e8c2a007e35b10fc40f9df91422c37bbc000d8f649b465903b"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/home_profile_fixture.json",
+    "sha256": "07483e3cf8b308680dc249670b67064d1615be365380329f733bcd872803c2d7"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/live_test_fixture.json",
+    "sha256": "7b5f76cdb1ed35fc67f3ff8c5dd79927df4c0e7d2e20586402bf8cea56a776f3"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/match_preflight.py",
+    "sha256": "e39baef21e351634b1d0d45c1693b0a2851faf995d696af3157f169267883ed7"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/match_render.py",
+    "sha256": "4d125aeebbb77ba2f17d77a1abf119d192fd8d8c6b3153f8eb0f9b1b3ddb821f"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/match_validate.py",
+    "sha256": "47ed2266e90be0159471ef7a981717b40baabf9c01232c8706c4e52c232d0384"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/matching_prompt.txt",
+    "sha256": "1b103afc13b5ecfc306a6f73ab9d35f70bf6bc7c9f5f38f674db678f56553876"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/matching_schema.json",
+    "sha256": "c72ce5cd4a62fa7c412b5d96b843082b9edf5676c1c9d58a4a31abf9e81c920e"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/owner_home_preview_sample.json",
+    "sha256": "bada0125c25aada75289144d828d58751dff9d4e232813d9b215c73fdff58458"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/probe_prompt.txt",
+    "sha256": "f9cd371eccd2e2ae4b4302ec08db0cd25e2a36a3bae802d1db01a3d84b5c0c88"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/probe_validate.py",
+    "sha256": "0df9a35922e1539fdcb36728c61e1a5e82f45a612c68fc69d1265e1f9bf21970"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/public_projection_sample.json",
+    "sha256": "b4e25625584727efb3a601dc67d86da1bc45511d0ca6b8d746b9c53ad3f423bc"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/test_step8.py",
+    "sha256": "d14c73bbee4b9441d2963e123b3583a794a9c900236d69c298a778733d33f0ea"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/用户主页_内容与数据约定.md",
+    "sha256": "baff6e0c049472a31b615e266a1c253b380857634156ce208d49f2e57cbf6db8"
+  },
+  {
+    "file": "reference/researchmesh_matching_home_step8/用户主页_内容样稿.md",
+    "sha256": "eb6fcf38438e7fdee7456205725ceab435104ec653fd86d184da1f2ee83053b2"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/execution.py",
+    "sha256": "e00109569d24b88809d3a5e3a29f06b02efc3152c0c7a35b668113dcf7137dd6"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/live_approved_outputs.json",
+    "sha256": "48ffd015817de52c41fe977ab6b7229e488962372760f6519c14d817881819a5"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/live_input.txt",
+    "sha256": "54c7769baddf09ac62ac922516cb8a0e03c89309f962b5c064de20844c087bb2"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/normalize.py",
+    "sha256": "c9358a3c9015f2626d8770e6872c1abffe0fbf0ca89d07f52aa86e934ecc6c4e"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/review_record.py",
+    "sha256": "cdf0aabc45dc8324367951d32d01ad5e3bfc30c2de0249d652d56889c9d04c05"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/test_step10.py",
+    "sha256": "be1374efd2359dd419c488579d606ef8e8cb568a4f84d82f47bca2a150df6d80"
+  },
+  {
+    "file": "reference/researchmesh_need_bridge_step10/trial1_boundary_output.json",
+    "sha256": "15e7c171c876fef3f5eec3b08e6ac5b27ae8ca2e2611dc004b46f7de4b9be121"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/current_demo.json",
+    "sha256": "8245210c98fcc23b21c0b2b504d53986965e96e2261fdcfe2719e9c1eb73ea56"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/live_final_outputs.json",
+    "sha256": "c7a28a1a92c6161bcfbae7a46e0e130e25c2d3253481e06dc113b30813d2998f"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/live_fixture.json",
+    "sha256": "4d4ecc39c497041521fb13ae157cbf4775ab4158649b1c29e523343969207d9f"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/match_preflight.py",
+    "sha256": "4ffdcb071fb73626f3dc6c751f33b5273c4a9922cff12ad4b29bf991f700273d"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/match_render.py",
+    "sha256": "a353c13f75a9d74f5155c2a24649df2c8148df94f2bba0cd4fc82897a056cbf4"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/review_bridge.py",
+    "sha256": "b2ac00d0c3c1989713e1a1e4ebcf5b0906d24d4d69aef249d8c080769cb4d2f5"
+  },
+  {
+    "file": "reference/researchmesh_need_matching_step11/test_step11.py",
+    "sha256": "4d0fe9b71c0c353b1f7369c10fc5d150ee0fdcf7a96735a120d993a061eb0b2d"
+  }
+]

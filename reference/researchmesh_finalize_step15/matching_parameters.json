@@ -1,0 +1,103 @@
+{
+  "opening_statement": "",
+  "suggested_questions": [],
+  "suggested_questions_after_answer": {
+    "enabled": false
+  },
+  "speech_to_text": {
+    "enabled": false
+  },
+  "text_to_speech": {
+    "enabled": false,
+    "voice": "",
+    "language": ""
+  },
+  "retriever_resource": {
+    "enabled": true
+  },
+  "annotation_reply": {
+    "enabled": false
+  },
+  "more_like_this": {
+    "enabled": false
+  },
+  "user_input_form": [
+    {
+      "paragraph": {
+        "variable": "need_json",
+        "label": "need_json需求数据包（开发测试JSON）",
+        "type": "paragraph",
+        "required": true,
+        "options": [],
+        "placeholder": "",
+        "default": "",
+        "hint": "",
+        "max_length": 12000
+      }
+    },
+    {
+      "paragraph": {
+        "variable": "candidates_json",
+        "label": "candidates_json授权候选数据包（最多10人，每人3条证据）",
+        "type": "paragraph",
+        "required": true,
+        "options": [],
+        "placeholder": "",
+        "default": "",
+        "hint": "",
+        "max_length": 48000
+      }
+    }
+  ],
+  "sensitive_word_avoidance": {
+    "enabled": false
+  },
+  "file_upload": {
+    "image": {
+      "enabled": false,
+      "number_limits": 3,
+      "transfer_methods": [
+        "local_file",
+        "remote_url"
+      ]
+    },
+    "enabled": false,
+    "allowed_file_types": [
+      "image"
+    ],
+    "allowed_file_extensions": [
+      ".JPG",
+      ".JPEG",
+      ".PNG",
+      ".GIF",
+      ".WEBP",
+      ".SVG"
+    ],
+    "allowed_file_upload_methods": [
+      "local_file",
+      "remote_url"
+    ],
+    "number_limits": 3,
+    "fileUploadConfig": {
+      "file_size_limit": 15,
+      "knowledge_file_size_limit": 15,
+      "batch_count_limit": 5,
+      "file_upload_limit": 50,
+      "image_file_size_limit": 10,
+      "video_file_size_limit": 100,
+      "audio_file_size_limit": 50,
+      "skill_file_size_limit": 50,
+      "workflow_file_upload_limit": 10,
+      "image_file_batch_limit": 10,
+      "single_chunk_attachment_limit": 10,
+      "attachment_image_file_size_limit": 2
+    }
+  },
+  "system_parameters": {
+    "image_file_size_limit": 10,
+    "video_file_size_limit": 100,
+    "audio_file_size_limit": 50,
+    "file_size_limit": 15,
+    "workflow_file_upload_limit": 10
+  }
+}

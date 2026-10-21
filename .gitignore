@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+__pycache__/
+*.pyc
+private/
+*_private*/
+*transport_checkpoint*
+node_modules/

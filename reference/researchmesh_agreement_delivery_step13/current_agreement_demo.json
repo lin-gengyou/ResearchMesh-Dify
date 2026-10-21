@@ -1,0 +1,175 @@
+{
+  "active": true,
+  "status": "open",
+  "need_id": "N-BRIDGE-DEMO-11",
+  "owner_id": "OWNER-DEMO-11",
+  "need_version": 1,
+  "source_workflow_run_id": "de424aed-a6d7-434b-8dde-a56c60a6f127",
+  "source_draft_sha256": "85561680466603261bf047000c23cf04501cf64f6198f3e162394b14a7b466f6",
+  "normalized_sha256": "5ddc3dc7ddf5637d5c232a12f46f364d22559d38dfb053eeacfcad5f242595ac",
+  "latest_matching_sha256": "c969984fdbc76416d736668dd34c8ae75d38c3eed5ee00dedc014e91923eeff7",
+  "matching_candidates_sha256": "dcc9779702891afc953051d19f2bd718b7ebc3051b89400a304030278b9ecb1f",
+  "planning_sha256": "fd7c1e173b7b02ab149be686c1d345958cddf1f73061d77cf06c685df5e59f6b",
+  "reviewed_snapshot": {
+    "need_type": "short_term",
+    "fields": {
+      "goal": {
+        "value": "用一份虚构的校园温度CSV制作可复现的数据分析示例",
+        "status": "explicit",
+        "quote": "项目目标是用一份虚构的校园温度CSV制作可复现的数据分析示例",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "existing_team": {
+        "value": "已有两名成员负责整理需求和检查结果",
+        "status": "explicit",
+        "quote": "已有两名成员负责整理需求和检查结果",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "project_stage": {
+        "value": "已有两名成员负责整理需求和检查结果，目前困难是两人都没有时间编写CSV清洗和趋势图脚本",
+        "status": "explicit",
+        "quote": "目前困难是两人都没有时间编写CSV清洗和趋势图脚本",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "project_duration": {
+        "value": "项目整体周期为两周",
+        "status": "explicit",
+        "quote": "项目整体周期为两周",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "problem": {
+        "value": "两名成员都没有时间编写CSV清洗和趋势图脚本",
+        "status": "explicit",
+        "quote": "两人都没有时间编写CSV清洗和趋势图脚本",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "task": {
+        "value": "读取CSV并检查缺失值，按日期汇总温度，绘制温度趋势图",
+        "status": "explicit",
+        "quote": "读取CSV并检查缺失值，按日期汇总温度，绘制温度趋势图",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "deliverable": {
+        "value": "一个可运行的Python脚本、一张趋势图和一份运行说明",
+        "status": "explicit",
+        "quote": "交付物为一个可运行的Python脚本、一张趋势图和一份运行说明",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "acceptance": {
+        "value": "在团队已准备好的虚构样例CSV上运行脚本，不报错；输出每日温度均值及对应的趋势图；说明写明运行命令和缺失值处理方法",
+        "status": "explicit",
+        "quote": "在团队已准备好的虚构样例CSV上运行脚本，不报错；输出每日温度均值及对应的趋势图；说明写明运行命令和缺失值处理方法",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "deadline": {
+        "value": "首次检查和最终交付截止日期均为2026-11-15",
+        "status": "explicit",
+        "quote": "首次检查和最终交付截止日期均为2026-11-15",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "time_commitment": {
+        "value": "每周预计投入4小时，总计预计8小时",
+        "status": "explicit",
+        "quote": "每周预计投入4小时，总计预计8小时",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "onboarding_owner": {
+        "value": "虚构负责人小研",
+        "status": "explicit",
+        "quote": "接应与对接人为虚构负责人小研",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "input_materials": {
+        "value": "已经准备好的虚构样例CSV、字段说明和脚本样例",
+        "status": "explicit",
+        "quote": "可提供的输入材料是已经准备好的虚构样例CSV、字段说明和脚本样例",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "dependencies": {
+        "value": "读取虚构CSV文件；样例数据、文件读取权限和Python运行环境都已准备好",
+        "status": "explicit",
+        "quote": "前置条件是读取虚构CSV文件；样例数据、文件读取权限和Python运行环境都已准备好",
+        "source": "original",
+        "verification": "user_statement_only"
+      },
+      "execution_readiness": {
+        "value": "已就绪",
+        "status": "explicit",
+        "quote": "目前可以开始，不依赖采购、真实个人数据或其他未完成任务",
+        "source": "original",
+        "verification": "user_statement_only"
+      }
+    },
+    "capability_gaps": [
+      {
+        "skill": "编写CSV清洗和趋势图脚本",
+        "assessment": "explicit_gap",
+        "quote": "两人都没有时间编写CSV清洗和趋势图脚本",
+        "reason": "原文明确两名现有成员没有时间承担该脚本编写工作，属于可由协作者承担的专业技术工作缺口；仅说明时间不足，不断言成员不具备该能力。",
+        "owner_confirmed": false
+      }
+    ],
+    "execution_checks": {
+      "check_version": "0.1",
+      "missing_fields": [],
+      "readiness": "ready",
+      "blocking_reasons": [],
+      "ready_for_owner_review": true,
+      "verification": "user_statement_only"
+    },
+    "requirements": [
+      {
+        "skill": "Python",
+        "proposed_label": "Python",
+        "source_quote": "Python允许边做边学，可在指导下完成Python脚本；团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。不要求协作者独立完成。",
+        "necessity": "learnable",
+        "necessity_quote": "Python允许边做边学，可在指导下完成Python脚本；团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。不要求协作者独立完成。",
+        "independence": "guided",
+        "independence_quote": "Python允许边做边学，可在指导下完成Python脚本；团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。不要求协作者独立完成。",
+        "source": "original",
+        "verification": "user_statement_only"
+      }
+    ],
+    "requirements_policy": {
+      "value": "specified",
+      "quote": ""
+    },
+    "learning_support": {
+      "quote_recovered_from_input": false,
+      "availability": "available",
+      "description": "团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。",
+      "quote": "团队每周提供一次30分钟的Python演示和答疑，并提供教程与脚本样例。",
+      "verification": "user_statement_only"
+    },
+    "requirements_checks": {
+      "check_version": "0.1",
+      "missing_fields": [],
+      "issues": [],
+      "warnings": [],
+      "ready_for_owner_review": true,
+      "verification": "quote_presence_and_rule_checks"
+    }
+  },
+  "latest_team_sha256": "9684bb68f8ce77074b7089c0ea9084badb0918d270606ad8f936dd6860b367b1",
+  "agreement_id": "ENG-BRIDGE-DEMO-12",
+  "agreement_version": 2,
+  "terms_hash": "fa6dbe61172a561ca02381ed445e8f09fa049216e030d42b1780eddc5d766257",
+  "performer_id": "LEARNER-DEMO-11",
+  "source_review_run_id": "de424aed-a6d7-434b-8dde-a56c60a6f127",
+  "source_matching_sha256": "c969984fdbc76416d736668dd34c8ae75d38c3eed5ee00dedc014e91923eeff7",
+  "source_team_sha256": "9684bb68f8ce77074b7089c0ea9084badb0918d270606ad8f936dd6860b367b1",
+  "allocated_hours": 4,
+  "time_window": "2026-11-02至2026-11-08（仅这一周的任务预算，非全项目总工时）"
+}

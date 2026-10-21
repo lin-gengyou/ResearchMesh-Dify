@@ -1,0 +1,110 @@
+[
+  {
+    "app": "capability",
+    "case": "confirm",
+    "run_id": "4983f46d-6d57-4665-a607-251908f079ca",
+    "status": "paused",
+    "total_tokens": 1020,
+    "steps": 5,
+    "output_keys": [],
+    "pending_node": "1792496533023",
+    "form_fields": [
+      "profile_correction"
+    ],
+    "actions": [
+      "confirm_use",
+      "revise",
+      "save_private"
+    ]
+  },
+  {
+    "app": "demand",
+    "case": "complete",
+    "run_id": "bb056acd-d089-4413-bd01-f6ff1c2ee2da",
+    "status": "paused",
+    "total_tokens": 4070,
+    "steps": 10,
+    "output_keys": [],
+    "pending_node": "1792335658268",
+    "form_fields": [
+      "review_note"
+    ],
+    "actions": [
+      "approve",
+      "revise"
+    ]
+  },
+  {
+    "app": "capability",
+    "case": "confirm_use",
+    "run_id": "4983f46d-6d57-4665-a607-251908f079ca",
+    "status": "succeeded",
+    "total_tokens": 1020,
+    "steps": 8,
+    "output_keys": [
+      "profile_card",
+      "profile_packet",
+      "profile_route",
+      "matching_evidence",
+      "revision_input"
+    ],
+    "pending_node": null
+  },
+  {
+    "app": "demand",
+    "case": "approve",
+    "run_id": "bb056acd-d089-4413-bd01-f6ff1c2ee2da",
+    "status": "succeeded",
+    "total_tokens": 4070,
+    "steps": 13,
+    "output_keys": [
+      "review_card",
+      "need_review_record",
+      "need_matching_handoff"
+    ],
+    "pending_node": null
+  },
+  {
+    "app": "matching",
+    "case": "exploration",
+    "run_id": "99f7fc67-48f3-431d-a2b9-f97d07da123f",
+    "status": "succeeded",
+    "total_tokens": 3142,
+    "steps": 12,
+    "output_keys": [
+      "recommendation_card",
+      "decision_packet"
+    ],
+    "pending_node": null
+  },
+  {
+    "app": "demand",
+    "case": "vague",
+    "run_id": "ae1c1f1b-a77f-4510-b687-c77b7e7195b1",
+    "status": "paused",
+    "total_tokens": 5200,
+    "steps": 12,
+    "output_keys": [],
+    "pending_node": "1792384003831",
+    "form_fields": [
+      "draft_note"
+    ],
+    "actions": [
+      "choose_a",
+      "choose_b",
+      "revise"
+    ]
+  },
+  {
+    "app": "demand",
+    "case": "choose_a",
+    "run_id": "ae1c1f1b-a77f-4510-b687-c77b7e7195b1",
+    "status": "succeeded",
+    "total_tokens": 7441,
+    "steps": 16,
+    "output_keys": [
+      "exploration_card"
+    ],
+    "pending_node": null
+  }
+]

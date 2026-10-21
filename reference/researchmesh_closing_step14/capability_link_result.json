@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "source": "actual stage9 DeepSeek capability End output; current stage11 preflight and stage8 validators",
+  "new_model_calls": 0,
+  "checks": [
+    "current profile accepted by matching preflight",
+    "self report retained",
+    "guided retained",
+    "all hard coverage unknown",
+    "exploration route available",
+    "no automatic invitation",
+    "private rejected",
+    "revision rejected",
+    "snapshot mismatch rejected"
+  ],
+  "scope": "local contract recheck; synthetic assessment rows are not AI output; backend must independently authenticate actor and bind exact current authorized profile snapshot"
+}

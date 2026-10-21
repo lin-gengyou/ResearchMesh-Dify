@@ -1,0 +1,10 @@
+{
+  "active": true,
+  "status": "open",
+  "need_id": "N-BRIDGE-DEMO-11",
+  "owner_id": "OWNER-DEMO-11",
+  "need_version": 1,
+  "source_workflow_run_id": "de424aed-a6d7-434b-8dde-a56c60a6f127",
+  "source_draft_sha256": "85561680466603261bf047000c23cf04501cf64f6198f3e162394b14a7b466f6",
+  "normalized_sha256": "5ddc3dc7ddf5637d5c232a12f46f364d22559d38dfb053eeacfcad5f242595ac"
+}

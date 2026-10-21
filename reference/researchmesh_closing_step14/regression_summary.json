@@ -1,0 +1,37 @@
+[
+  {
+    "suite": "capability_step7",
+    "returncode": 0,
+    "summary": "y_cannot_be_personal_claim (test_capability.CapabilityTests.test_team_and_interest_only_cannot_be_personal_claim) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.172s\n\nOK\n"
+  },
+  {
+    "suite": "matching_home_step8",
+    "returncode": 0,
+    "summary": "ink_or_unconfirmed_never_get_probe (test_step8.MatchTests.test_team_interest_link_or_unconfirmed_never_get_probe) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.021s\n\nOK\n"
+  },
+  {
+    "suite": "need_bridge_step10",
+    "returncode": 0,
+    "summary": "cks.test_revise_never_matching) ... ok\ntest_task_actions_retained (test_step10.Checks.test_task_actions_retained) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.020s\n\nOK\n"
+  },
+  {
+    "suite": "need_matching_step11",
+    "returncode": 0,
+    "summary": ". ok\ntest_valid_need_retains_source_and_learning (test_step11.Checks.test_valid_need_retains_source_and_learning) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.021s\n\nOK\n"
+  },
+  {
+    "suite": "match_team_step12",
+    "returncode": 0,
+    "summary": "s_one_person_four_hours) ... ok\ntest_unknown_cell_not_elevated (test_step12.Tests.test_unknown_cell_not_elevated) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.025s\n\nOK\n"
+  },
+  {
+    "suite": "agreement_delivery_step13",
+    "returncode": 0,
+    "summary": "_source_changes_snapshot_hash) ... ok\ntest_stale_agreement_blocks (test_step13.Checks.test_stale_agreement_blocks) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.007s\n\nOK\n"
+  },
+  {
+    "suite": "api_step6",
+    "returncode": 0,
+    "summary": "es_completed_owner_form (test_live_contract.LiveContractTests.test_reconnect_replay_replaces_completed_owner_form) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.009s\n\nOK\n"
+  }
+]

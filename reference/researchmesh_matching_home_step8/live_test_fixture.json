@@ -1,0 +1,125 @@
+{
+  "need": {
+    "id": "N-DEMO",
+    "title": "虚构验收：课程实验CSV清洗与趋势图",
+    "status": "open",
+    "owner_confirmed": true,
+    "hours_per_week": 4,
+    "start_date": "2026-10-26",
+    "location": "线上",
+    "requirements": [
+      {
+        "id": "R1",
+        "text": "用Python和pandas清洗CSV并处理缺失值",
+        "must": true,
+        "allow_adjacent": false,
+        "independent_required": true
+      },
+      {
+        "id": "R2",
+        "text": "用Python绘制折线图解释数据趋势",
+        "must": true,
+        "allow_adjacent": true,
+        "independent_required": false
+      }
+    ]
+  },
+  "people": [
+    {
+      "visible": true,
+      "status": "available",
+      "hours_per_week": 6,
+      "available_from": "2026-10-20",
+      "location": "线上",
+      "intent": "interested",
+      "id": "A",
+      "name": "虚构A｜有个人作品片段",
+      "evidence": [
+        {
+          "id": "EA",
+          "text": "本人独立完成课程实验CSV清洗脚本，用pandas识别缺失值后按列中位数填充，并用matplotlib绘制折线图；原始CSV和脚本已供本次核对。",
+          "personal_contribution": true,
+          "student_confirmed": true,
+          "task_scope_accepted": true,
+          "support_type": "provided_excerpt",
+          "independence": "independent"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "虚构B｜能力确认输出接入",
+      "visible": true,
+      "status": "available",
+      "intent": "interested",
+      "hours_per_week": 6,
+      "available_from": "2026-10-20",
+      "location": "线上",
+      "evidence": [
+        {
+          "id": "cap_976a4cf0f1fa_claim_1",
+          "text": "把CSV里的空值处理了，用Python画过折线图",
+          "personal_contribution": true,
+          "student_confirmed": true,
+          "confirmation_mode": "demo_human_input",
+          "identity_verified": false,
+          "task_scope_accepted": false,
+          "support_type": "self_reported",
+          "independence": "unknown",
+          "source_claim_id": "claim_1",
+          "source_draft_hash": "976a4cf0f1fafbf346310ec8626c8541b0d03b1b24f5c74f2efb1794df0cfdbd",
+          "externally_verified": false
+        },
+        {
+          "id": "cap_976a4cf0f1fa_claim_2",
+          "text": "用Python画过折线图",
+          "personal_contribution": true,
+          "student_confirmed": true,
+          "confirmation_mode": "demo_human_input",
+          "identity_verified": false,
+          "task_scope_accepted": false,
+          "support_type": "self_reported",
+          "independence": "unknown",
+          "source_claim_id": "claim_2",
+          "source_draft_hash": "976a4cf0f1fafbf346310ec8626c8541b0d03b1b24f5c74f2efb1794df0cfdbd",
+          "externally_verified": false
+        }
+      ],
+      "identity_verified": false,
+      "demo_only": true,
+      "source_draft_hash": "976a4cf0f1fafbf346310ec8626c8541b0d03b1b24f5c74f2efb1794df0cfdbd"
+    },
+    {
+      "visible": true,
+      "status": "available",
+      "hours_per_week": 1,
+      "available_from": "2026-10-20",
+      "location": "线上",
+      "intent": "interested",
+      "id": "C",
+      "name": "虚构C｜经历相关但工时不足",
+      "evidence": []
+    },
+    {
+      "visible": true,
+      "status": "available",
+      "hours_per_week": 6,
+      "available_from": "2026-10-20",
+      "location": "线上",
+      "intent": "unknown",
+      "id": "D",
+      "name": "虚构D｜只有团队成果",
+      "evidence": [
+        {
+          "id": "ED",
+          "text": "我们团队用Python完成过CSV清洗和折线图。我只负责汇报排版，没参与数据清洗或写绘图代码。",
+          "personal_contribution": false,
+          "student_confirmed": true,
+          "task_scope_accepted": false,
+          "support_type": "provided_excerpt",
+          "independence": "unknown"
+        }
+      ]
+    }
+  ]
+}

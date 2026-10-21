@@ -1,0 +1,559 @@
+{
+  "date": "2026-10-21",
+  "provider_display_name": "深度求索",
+  "model": "deepseek-v4-flash",
+  "settings": {
+    "temperature": 0,
+    "max_tokens": 8192,
+    "thinking": false
+  },
+  "apps": [
+    {
+      "name": "demand",
+      "app_id": "e5e69010-0855-41c2-b58d-55f4e2c9a496",
+      "before_node_count": 20,
+      "after_node_count": 20,
+      "before_edge_count": 23,
+      "after_edge_count": 23,
+      "published_version": null,
+      "status": "unpublished_draft",
+      "models": [
+        {
+          "node_id": "1792318236475",
+          "title": "理解困难与能力缺口",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792380379270",
+          "title": "提取能力要求与学习支持",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792383887444",
+          "title": "生成AI协作探索草稿",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792384164700",
+          "title": "AI依据选择与修改整理草稿",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        }
+      ],
+      "observed_after": {
+        "edges": 23,
+        "nodes": [
+          {
+            "id": "1792318226260",
+            "text": "开始\n项目描述输入\nproject_brief\n必填\nclarification_notes"
+          },
+          {
+            "id": "1792318236475",
+            "text": "理解困难与能力缺口\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792318370008",
+            "text": "校验原文证据并标准化"
+          },
+          {
+            "id": "1792324164840",
+            "text": "缺项判断与追问编排"
+          },
+          {
+            "id": "1792324244880",
+            "text": "资料齐备分流\nIF\n缺项判断与追问编排\n/\nroute\n是\nreview\nELSE"
+          },
+          {
+            "id": "1792324320041",
+            "text": "输出｜人工审核结果\n记录人工审核结果\n/\nresult\nString"
+          },
+          {
+            "id": "1792324965928",
+            "text": "整理原始需求与补充"
+          },
+          {
+            "id": "1792335658268",
+            "text": "负责人审核｜确认或退回\n提交方式\nWebapp\nAPPROVE\nREVISE\nTIMEOUT"
+          },
+          {
+            "id": "1792335869711",
+            "text": "记录人工审核结果"
+          },
+          {
+            "id": "1792336138883",
+            "text": "审核超时说明"
+          },
+          {
+            "id": "1792336163455",
+            "text": "输出｜审核超时\n审核超时说明\n/\noutput\nString"
+          },
+          {
+            "id": "1792379068228",
+            "text": "协作执行条件检查"
+          },
+          {
+            "id": "1792379729320",
+            "text": "核对能力要求与支持边界"
+          },
+          {
+            "id": "1792380379270",
+            "text": "提取能力要求与学习支持\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792383887444",
+            "text": "生成AI协作探索草稿\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792383955297",
+            "text": "区分原文事实与AI方案"
+          },
+          {
+            "id": "1792384003831",
+            "text": "先选方向｜可修改也可暂不选\n提交方式\nWebapp\nCHOOSE_A\nCHOOSE_B\nREVISE\nTIMEOUT"
+          },
+          {
+            "id": "1792384067192",
+            "text": "记录草稿方向与修改"
+          },
+          {
+            "id": "1792384164700",
+            "text": "AI依据选择与修改整理草稿\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792384464294",
+            "text": "输出｜AI协作草稿\nAI依据选择与修改整理草稿\n/\ntext\nString"
+          }
+        ]
+      }
+    },
+    {
+      "name": "capability",
+      "app_id": "e301e495-d5d9-45a3-9b0f-b8834e4e5a94",
+      "before_node_count": 10,
+      "after_node_count": 10,
+      "before_edge_count": 11,
+      "after_edge_count": 11,
+      "published_version": null,
+      "status": "unpublished_draft",
+      "models": [
+        {
+          "node_id": "1792397385007",
+          "title": "AI提取个人贡献与能力候选",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        }
+      ],
+      "observed_after": {
+        "edges": 11,
+        "nodes": [
+          {
+            "id": "1792397353605",
+            "text": "开始\n用户输入\nexperience\n必填"
+          },
+          {
+            "id": "1792397385007",
+            "text": "AI提取个人贡献与能力候选\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792397687072",
+            "text": "校验引用并生成能力草稿"
+          },
+          {
+            "id": "1792397833375",
+            "text": "输出｜个人能力草稿\n校验引用并生成能力草稿\n/\nresult\nString\n校验引用并生成能力草稿\n/\npayload\nString\n校验引用并生成能力草稿\n/\nroute\nString"
+          },
+          {
+            "id": "1792492324305",
+            "text": "有可供本人核对的经历线索\nIF\n校验引用并生成能力草稿\n/\nroute\n是\nreview\nELSE"
+          },
+          {
+            "id": "1792496533023",
+            "text": "本人核对经历与匹配使用意愿\n提交方式\nWebapp\nCONFIRM_USE\nREVISE\nSAVE_PRIVATE\nTIMEOUT"
+          },
+          {
+            "id": "1792496727918",
+            "text": "记录本人选择与匹配线索"
+          },
+          {
+            "id": "1792496874171",
+            "text": "输出｜本人核对与匹配线索\n记录本人选择与匹配线索\n/\nresult\nString\n记录本人选择与匹配线索\n/\npayload\nString\n记录本人选择与匹配线索\n/\nroute\nString\n记录本人选择与匹配线索\n/\nevidence_json\nString\n记录本人选择与匹配线索\n/\nrevision_input\nString"
+          },
+          {
+            "id": "1792497023347",
+            "text": "保留草稿并记录确认超时"
+          },
+          {
+            "id": "1792497150284",
+            "text": "输出｜本人确认超时\n保留草稿并记录确认超时\n/\nresult\nString\n保留草稿并记录确认超时\n/\npayload\nString"
+          }
+        ]
+      }
+    },
+    {
+      "name": "matching",
+      "app_id": "15bb815e-221d-4e9e-a0de-957b95679a2e",
+      "before_node_count": 13,
+      "after_node_count": 13,
+      "before_edge_count": 13,
+      "after_edge_count": 13,
+      "published_version": null,
+      "status": "unpublished_draft",
+      "models": [
+        {
+          "node_id": "1792407014382",
+          "title": "AI逐项判断任务与经历关联",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792499910375",
+          "title": "AI拟定自愿短讨论",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        }
+      ],
+      "observed_after": {
+        "edges": 13,
+        "nodes": [
+          {
+            "id": "1792406614150",
+            "text": "开始\n用户输入\nneed_json\n必填\ncandidates_json\n必填"
+          },
+          {
+            "id": "1792406666344",
+            "text": "核对数据包与硬条件"
+          },
+          {
+            "id": "1792406909877",
+            "text": "是否存在可评估候选\nIF\n核对数据包与硬条件\n/\nroute\n是\nready\nELSE"
+          },
+          {
+            "id": "1792407014382",
+            "text": "AI逐项判断任务与经历关联\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792407074011",
+            "text": "校验证据ID与逐项覆盖"
+          },
+          {
+            "id": "1792407161340",
+            "text": "排序并渲染依据与缺口"
+          },
+          {
+            "id": "1792407259427",
+            "text": "输出｜推荐依据与未覆盖项\n排序并渲染依据与缺口\n/\nresult\nString\n排序并渲染依据与缺口\n/\npayload\nString"
+          },
+          {
+            "id": "1792407381048",
+            "text": "输出｜条件未满足说明\n核对数据包与硬条件\n/\nresult\nString"
+          },
+          {
+            "id": "1792498743222",
+            "text": "提取待探索线索与问题"
+          },
+          {
+            "id": "1792499852830",
+            "text": "有探索线索才拟讨论\nIF\n提取待探索线索与问题\n/\nroute\n是\nneeds_probe\nELSE"
+          },
+          {
+            "id": "1792499910375",
+            "text": "AI拟定自愿短讨论\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792499966177",
+            "text": "校验讨论引用与草稿边界"
+          },
+          {
+            "id": "1792500053959",
+            "text": "合并探索与直接排序路径\n变量赋值\nstring\n校验讨论引用与草稿边界\n/\nresult\n提取待探索线索与问题\n/\nresult"
+          }
+        ]
+      }
+    },
+    {
+      "name": "team",
+      "app_id": "0400a63d-801e-4c48-a956-0938f3420608",
+      "before_node_count": 40,
+      "after_node_count": 40,
+      "before_edge_count": 51,
+      "after_edge_count": 51,
+      "published_version": 2,
+      "status": "published_update",
+      "models": [
+        {
+          "node_id": "1792408559561",
+          "title": "AI理解每项任务与个人经历",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792461520684",
+          "title": "AI起草可编辑的合作条款",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        },
+        {
+          "node_id": "1792478573728",
+          "title": "AI逐条整理本轮修改意见",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        }
+      ],
+      "observed_after": {
+        "edges": 51,
+        "nodes": [
+          {
+            "id": "1792408247824",
+            "text": "开始\n用户输入\nneed_json\n必填\ncandidates_json\n必填"
+          },
+          {
+            "id": "1792408323571",
+            "text": "核对任务工时与候选条件"
+          },
+          {
+            "id": "1792408509278",
+            "text": "可进行任务证据评估\nIF\n核对任务工时与候选条件\n/\nroute\n是\nready\nELSE"
+          },
+          {
+            "id": "1792408559561",
+            "text": "AI理解每项任务与个人经历\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792408611471",
+            "text": "校验个人证据与任务覆盖矩阵"
+          },
+          {
+            "id": "1792408690204",
+            "text": "组合枚举与主责工时分配"
+          },
+          {
+            "id": "1792408771881",
+            "text": "输出｜组合方案与分工解释\n组合枚举与主责工时分配\n/\nresult\nString\n组合枚举与主责工时分配\n/\npayload\nString"
+          },
+          {
+            "id": "1792408876299",
+            "text": "输出｜组队前置条件不足\n核对任务工时与候选条件\n/\nresult\nString"
+          },
+          {
+            "id": "1792460678359",
+            "text": "核对角色职责与同周期工时\n校验角色分离、需求版本、本人任务与同一合作时段工时预算；普通组队请求返回skip，由后续互斥分流处理。本节点不调用模型，也不代替任何一方确认。"
+          },
+          {
+            "id": "1792460981869",
+            "text": "输出｜合作约定前置校验\n核对角色职责与同周期工时\n/\nresult\nString\n核对角色职责与同周期工时\n/\nroute\nString\n核对角色职责与同周期工时\n/\npayload\nString"
+          },
+          {
+            "id": "1792461383439",
+            "text": "按组队约定与异常互斥分流\nCASE 1\nIF\n核对角色职责与同周期工时\n/\nroute\n是\nskip\nCASE 2\nELIF\n核对角色职责与同周期工时\n/\nroute\n是\nready\nELSE"
+          },
+          {
+            "id": "1792461520684",
+            "text": "AI起草可编辑的合作条款\ndeepseek-v4-flash\nCHAT\nAI将已有分工和模糊验收想法整理成可编辑条款，区分原文、AI建议和未知，不代填报酬或精确日期；后续代码核验来源。"
+          },
+          {
+            "id": "1792461574910",
+            "text": "核对来源并封存约定版本1"
+          },
+          {
+            "id": "1792461650237",
+            "text": "输出｜待双方确认的约定草稿\n核对来源并封存约定版本1\n/\nresult\nString\n核对来源并封存约定版本1\n/\npayload\nString\n核对来源并封存约定版本1\n/\nroute\nString"
+          },
+          {
+            "id": "1792463224718",
+            "text": "条款通过校验后才进入双方确认\nIF\n核对来源并封存约定版本1\n/\nroute\n是\nnext\nELSE"
+          },
+          {
+            "id": "1792463257417",
+            "text": "负责人｜核对并选择版本1\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+          },
+          {
+            "id": "1792463469904",
+            "text": "负责人选择｜记录版本与事件"
+          },
+          {
+            "id": "1792463834565",
+            "text": "负责人已接受当前版本\nCASE 1\nIF\n负责人选择｜记录版本与事件\n/\nroute\n是\nnext\nCASE 2\nELIF\n负责人选择｜记录版本与事件\n/\nroute\n是\nrevise\nELSE"
+          },
+          {
+            "id": "1792463915587",
+            "text": "承担者｜核对并选择版本1\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+          },
+          {
+            "id": "1792464165204",
+            "text": "承担者选择｜记录版本与事件"
+          },
+          {
+            "id": "1792464277292",
+            "text": "输出｜双方确认与交付入口\n承担者选择｜记录版本与事件\n/\nresult\nString\n承担者选择｜记录版本与事件\n/\npayload\nString\n承担者选择｜记录版本与事件\n/\nroute\nString\n承担者选择｜记录版本与事件\n/\nagreement_json\nString"
+          },
+          {
+            "id": "1792464397639",
+            "text": "输出｜负责人拒绝或要求修改\n负责人选择｜记录版本与事件\n/\nresult\nString\n负责人选择｜记录版本与事件\n/\npayload\nString\n负责人选择｜记录版本与事件\n/\nroute\nString\n负责人选择｜记录版本与事件\n/\nagreement_json\nString"
+          },
+          {
+            "id": "1792464580988",
+            "text": "确认超时｜本轮不成立合作"
+          },
+          {
+            "id": "1792464630645",
+            "text": "输出｜确认超时\n确认超时｜本轮不成立合作\n/\noutput\nString"
+          },
+          {
+            "id": "1792466733857",
+            "text": "负责人修改｜保留本轮意见与历史"
+          },
+          {
+            "id": "1792466783125",
+            "text": "汇合本轮实际修改来源\n变量赋值\nstring\n负责人修改｜保留本轮意见与历史\n/\noutput\n承担者修改｜保留本轮意见与历史\n/\noutput"
+          },
+          {
+            "id": "1792466869215",
+            "text": "承担者是否要求修改条款\nIF\n承担者选择｜记录版本与事件\n/\nroute\n是\nrevise\nELSE"
+          },
+          {
+            "id": "1792466918262",
+            "text": "承担者修改｜保留本轮意见与历史"
+          },
+          {
+            "id": "1792478573728",
+            "text": "AI逐条整理本轮修改意见\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792478658112",
+            "text": "核对修改范围并生成新旧条款差异"
+          },
+          {
+            "id": "1792478742575",
+            "text": "修改通过核对后才可重新确认\nIF\n核对修改范围并生成新旧条款差异\n/\nroute\n是\nnext\nELSE"
+          },
+          {
+            "id": "1792478804434",
+            "text": "输出｜修改意见需进一步核对\n核对修改范围并生成新旧条款差异\n/\nresult\nString\n核对修改范围并生成新旧条款差异\n/\npayload\nString\n核对修改范围并生成新旧条款差异\n/\nroute\nString"
+          },
+          {
+            "id": "1792478884718",
+            "text": "负责人｜重新确认新版本\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+          },
+          {
+            "id": "1792479096787",
+            "text": "负责人新版本选择｜独立记录"
+          },
+          {
+            "id": "1792479219856",
+            "text": "新版本仍需负责人先接受\nIF\n负责人新版本选择｜独立记录\n/\nroute\n是\nnext\nELSE"
+          },
+          {
+            "id": "1792479278278",
+            "text": "输出｜新版本负责人未接受\n负责人新版本选择｜独立记录\n/\nresult\nString\n负责人新版本选择｜独立记录\n/\npayload\nString\n负责人新版本选择｜独立记录\n/\nroute\nString"
+          },
+          {
+            "id": "1792479365090",
+            "text": "承担者｜重新确认新版本\n提交方式\nWebapp\nACCEPT\nREVISE\nDECLINE\nTIMEOUT"
+          },
+          {
+            "id": "1792479496079",
+            "text": "承担者新版本选择｜核对双向确认"
+          },
+          {
+            "id": "1792479590600",
+            "text": "输出｜修改后最终状态与交付入口\n承担者新版本选择｜核对双向确认\n/\nresult\nString\n承担者新版本选择｜核对双向确认\n/\npayload\nString\n承担者新版本选择｜核对双向确认\n/\nroute\nString\n承担者新版本选择｜核对双向确认\n/\nagreement_json\nString"
+          },
+          {
+            "id": "1792480187071",
+            "text": "提取当前修改与可定位任务"
+          }
+        ]
+      }
+    },
+    {
+      "name": "delivery",
+      "app_id": "5f017ac1-8be1-4d76-921e-96c4bc273c5c",
+      "before_node_count": 16,
+      "after_node_count": 16,
+      "before_edge_count": 20,
+      "after_edge_count": 20,
+      "published_version": 2,
+      "status": "published_update",
+      "models": [
+        {
+          "node_id": "1792409761510",
+          "title": "AI对照交付标准与本人工作",
+          "old_model": "gpt-4.1-mini-2025-04-14",
+          "new_model": "deepseek-v4-flash"
+        }
+      ],
+      "observed_after": {
+        "edges": 20,
+        "nodes": [
+          {
+            "id": "1792409468829",
+            "text": "开始\n用户输入\nagreement_json\n必填\nsubmission_text\n必填"
+          },
+          {
+            "id": "1792409506170",
+            "text": "核对约定版本与提交状态"
+          },
+          {
+            "id": "1792409683413",
+            "text": "版本与约定可进入验收\nIF\n核对约定版本与提交状态\n/\nroute\n是\nready\nELSE"
+          },
+          {
+            "id": "1792409761510",
+            "text": "AI对照交付标准与本人工作\ndeepseek-v4-flash\nCHAT"
+          },
+          {
+            "id": "1792415247112",
+            "text": "核对引用并生成验收辅助卡"
+          },
+          {
+            "id": "1792415339919",
+            "text": "验收者｜通过退回或争议\n提交方式\nWebapp\nAPPROVE\nREVISE\nDISPUTE\nTIMEOUT"
+          },
+          {
+            "id": "1792416430453",
+            "text": "记录验收决定与贡献草稿"
+          },
+          {
+            "id": "1792416670251",
+            "text": "验收通过后再核对个人贡献\nIF\n记录验收决定与贡献草稿\n/\nroute\n是\naccepted\nELSE"
+          },
+          {
+            "id": "1792416719562",
+            "text": "本人核对贡献与公开意愿\n提交方式\nWebapp\nPUBLIC_DRAFT\nPRIVATE\nREVISE\nTIMEOUT"
+          },
+          {
+            "id": "1792416810155",
+            "text": "记录本人核对与可见范围"
+          },
+          {
+            "id": "1792416862622",
+            "text": "交付与贡献结果\n记录本人核对与可见范围\n/\nresult\nString\n记录本人核对与可见范围\n/\npayload\nString"
+          },
+          {
+            "id": "1792417068992",
+            "text": "退回或争议处理结果\n记录验收决定与贡献草稿\n/\nresult\nString\n记录验收决定与贡献草稿\n/\npayload\nString"
+          },
+          {
+            "id": "1792417090400",
+            "text": "版本或约定检查未通过\n核对约定版本与提交状态\n/\nresult\nString\n核对约定版本与提交状态\n/\nroute\nString"
+          },
+          {
+            "id": "1792417137405",
+            "text": "模板转换"
+          },
+          {
+            "id": "1792417169061",
+            "text": "人工环节未完成结果\n模板转换\n/\noutput\nString\n封装人工确认超时事件\n/\nresult\nString"
+          },
+          {
+            "id": "1792489311453",
+            "text": "封装人工确认超时事件"
+          }
+        ]
+      }
+    }
+  ]
+}

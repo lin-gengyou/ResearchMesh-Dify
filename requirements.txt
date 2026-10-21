@@ -1,0 +1,1 @@
+# Reference code and tests use Python 3.12 standard library only.
